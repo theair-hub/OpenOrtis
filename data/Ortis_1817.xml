@@ -1,27 +1,50 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI.2>
-    <teiHeader>
-        <fileDesc>
+    <teiHeader xml:lang="en">
+        <fileDesc> <!-- contains a full bibliographic description of an electronic file.-->
             <titleStmt>
                 <title>Ultime lettere di Iacopo Ortis</title>
-                <author>Ugo Foscolo</author>
+                <author>
+                    <persName>
+                        <forename>Ugo</forename>
+                        <surname>Foscolo</surname>
+                    </persName>
+                </author>
             </titleStmt>
-            <extent>305 Kb in UTF-8</extent>
+            <extent>
+                <measure unit="kB" quantity="305">About 305 kB</measure>
+            </extent>
+            <editionStmt>
+                <edition>First digital edition- <date when="2026-04">April, 2026</date>
+                </edition>
+                <respStmt>
+                    <resp>Annotated by</resp>
+                    <persName>
+                        <forename>Ilaria</forename>
+                        <surname>De Dominicis</surname>
+                    </persName>
+                </respStmt>
+            </editionStmt>
+            <notesStmt>
+                <note>This is an XML/TEI document made for the exam of Digital Scholarly Editing:
+                    Theory, Methods and Practice.
+                </note>
+            </notesStmt>
             <publicationStmt>
-                <publisher>Biblioteca Italiana</publisher>
-                <pubPlace>Roma</pubPlace>
-                <date>2004</date>
-                <idno>bibit001627</idno>
-                <availability>
-                    <p>This digital resource is freely accessible for personal or scientific use.
-                        Any commercial use is prohibited</p>
+                <publisher>
+                    <foreign xml:lang="la">Alma Mater Studiorum</foreign> - <foreign xml:lang="it">Università
+                    di Bologna</foreign></publisher>
+                <pubPlace>
+                    <placeName key="Bologna" sameAs="https://www.geonames.org/3181928">Bologna</placeName>
+                    <date when="2025-06">July, 2025</date>
+                </pubPlace>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC </licence>
+                    <p>Open Access. Available for academic purposes.</p>
                 </availability>
             </publicationStmt>
-            <seriesStmt>
-                <title>BibIt Collection</title>
-            </seriesStmt>
             <sourceDesc>
-                <bibl>
+                <bibl type="printed_source">
                     <title>National Edition of the Works of Ugo Foscolo</title>
                     <title type="part">Ultime lettere di Jacopo Ortis</title>
                     <author>Foscolo, Ugo</author>
@@ -30,9 +53,25 @@
                     <pubPlace>Florence</pubPlace>
                     <date>1970</date>
                 </bibl>
+                <bibl type="digital_source">
+                    <title type="part">Ultime lettere di Jacopo Ortis</title>
+                    <author>Foscolo, Ugo</author>
+                    <publisher>Biblioteca Italiana</publisher>
+                    <pubPlace>Roma</pubPlace>
+                    <date>2004</date>
+                    <idno>bibit001627</idno>
+                    <availability>
+                        <p>This digital resource is freely accessible for personal or scientific
+                            use.
+                            Any commercial use is prohibited</p>
+                    </availability>
+                    <seriesStmt>
+                        <title>BibIt Collection</title>
+                    </seriesStmt>
+                </bibl>
             </sourceDesc>
         </fileDesc>
-        <encodingDesc>
+        <encodingDesc> <!-- da modificare-->
             <samplingDecl>
                 <p>All paratextual materials from the printed source not attributable to the author
                     of the work have been omitted in the digital version</p>
@@ -105,7 +144,53 @@
                 </respStmt>
                 <item>Validation</item>
             </change>
+            <change>
+                <date></date>
+                <respStmt>
+                    <name>Ilaria De Dominicis</name>
+                </respStmt>
+                <item>XML encoding of the variants</item>
+            </change>
         </revisionDesc>
+        <listPerson>
+            <person xml:id="Foscolo">
+                <persName type="author" sameAs="https://viaf.org/en/viaf/36929008"
+                    ref="https://www.treccani.it/enciclopedia/ugo-foscolo_(Dizionario-Biografico)/">
+                </persName>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="">
+                <settlement type="città"></settlement>
+            </place>
+        </listPlace>
+        <listWit>
+            <witness xml:id="Gt"> <!-- Genio Tipografico-->
+                <date>1802</date>
+                <msDesc type="print">
+                    <idno>
+                        Citazione del libro
+                    </idno>
+                </msDesc>
+            </witness>
+            <witness xml:id="Z"> <!-- Edizione Zurighese-->
+                <date>1816</date>
+                <msDesc type="print">
+                    <idno>
+                        Citazione del libro
+                    </idno>
+                </msDesc>
+            </witness> <!--
+            Edizione Londinese-->
+            <witness xml:id="L">
+                <date>1817</date>
+                <msDesc type="print">
+                    <idno>
+                        Citazione del libro
+                    </idno>
+                </msDesc>
+            </witness>
+        </listWit>
     </teiHeader>
     <text>
         <body>
@@ -2518,7 +2603,7 @@
                         <p><hi rend="italic">Il d&#xEC; seguente, che fu la mattina de' 7 luglio,
                             Jacopo and&#xF2; da Teresa, e vi trov&#xF2; lo sposo, e il pittore che
                                 le faceva il ritratto nuziale. Teresa confusa e tremante usc&#xEC;
-                            in
+                                in
                                 fretta come per badare a qualche cosa di cui si era dimenticata; ma
                             passando davanti a Jacopo gli disse ansiosamente sottovoce:</hi> Mio
                             padre sa tutto. <hi rend="italic">Ei non fe' motto n&#xE8; cambi&#xF2;
@@ -4223,7 +4308,7 @@
                                 e che a momenti sarebbero tornati dal passeggio. Era quasi sera, e
                             tornavasi a casa. Dopo non molti passi s'accorse di Teresa che veniva
                                 con l'Isabellina per mano; e dietro alle figliuole, il signore T.
-                            con
+                                con
                                 Odoardo. Jacopo fu preso da un tremito, e s'accostava perplesso.
                             Teresa
                                 appena il conobbe, grid&#xF2;:</hi> Eterno Iddio! <hi rend="italic">e
@@ -4702,7 +4787,7 @@
                             di nessun conto, gittati sotto al suo tavolino; e a' quali ho
                             probabilmente assegnato le date. &#x2014; Ma il passo seguente, non so
                                 se suo o d'altri quanto alle idee, bens&#xEC; di stile tutto suo,
-                            era
+                                era
                                 stato da lui scritto in calce al libro delle</hi>
 <title>Massime di
                             Marco
@@ -4946,7 +5031,7 @@
                                 di pi&#xF9; fiero presentimento. Io nell'autunno scorso, trovandomi
                             a'
                                 colli Euganei, aveva letto in casa del signore T. parte d'una
-                            lettera
+                                lettera
                                 nella quale Jacopo tornava con tutti i pensieri alla sua solitudine
                             paterna. E allora Teresa rappresent&#xF2; a chiaroscuro la prospettiva
                             del laghetto de' cinque fonti, e accenn&#xF2; sul pendio d'un poggetto
