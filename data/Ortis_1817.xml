@@ -198,17 +198,22 @@
                 <head>AL LETTORE</head>
                 <p>Pubblicando queste lettere, io tento di erigere un monumento alla virt&#xF9;
                     sconosciuta; e di <app>
-                        <lem wit="#L">consecrare alla memoria del solo amico mio quelle lagrime</lem>
+                        <lem wit="#L #Z">consecrare alla memoria del solo amico mio quelle lagrime</lem>
                         <rdg wit="#Gt">consecrare su le memorie del mio solo amico quel pianto</rdg>
                     </app>,
-                    che ora mi si vieta di spargere su la sua sepoltura. E tu, o Lettore, se uno non
-                    sei di coloro che esigono dagli altri quell'eroismo di cui non sono eglino
-                    stessi capaci, darai, spero, la tua compassione al giovine infelice dal quale
-                    potrai forse trarre esempio e conforto.</p>
+                    che ora mi si vieta di spargere su la sua sepoltura.<app>
+                        <lem wit="#L #Z"></lem>
+                        <rdg wit="#Gt">
+                            <lb />
+                        </rdg>
+                    </app> E tu, o
+                    Lettore, se uno non sei di coloro che esigono dagli altri quell'eroismo di cui
+                    non sono eglino stessi capaci, darai, spero, la tua compassione al giovine
+                    infelice dal quale potrai forse trarre esempio e conforto.</p>
                 <closer>
                     <signed>
                         <app>
-                            <lem wit="#L">LORENZO ALDERANI</lem>
+                            <lem wit="#L #Z">LORENZO ALDERANI</lem>
                             <rdg wit="#Gt">LORENZO A***</rdg>
                         </app>
                     </signed>
@@ -232,37 +237,37 @@
                             Z i mesi sono sempre minuscoli </app> 1797.</dateline>
                     </opener>
                     <p>Il sacrificio della <app>
-                            <lem wit="#L">patria nostra</lem>
+                            <lem wit="#L #Z">patria nostra</lem>
                             <rdg wit="#Gt">nostra patria</rdg>
                         </app> &#xE8;
                         consumato: tutto &#xE8; perduto; e la vita, seppure ne verr&#xE0; concessa,
                         non ci rester&#xE0; che per piangere le nostre sciagure, <app>
-                            <lem wit="#L">e la nostra infamia</lem>
+                            <lem wit="#L #Z">e la nostra infamia</lem>
                             <rdg wit="#Gt">le nostre infamie</rdg>
                         </app>. Il
                         mio nome &#xE8; nella lista di proscrizione, lo so: ma vuoi tu ch'io per
                         salvarmi da chi m'opprime mi commetta a chi mi ha tradito? consola mia
                         madre: vinto dalle sue lagrime <app>
-                            <lem wit="#L">le ho ubbidito</lem>
+                            <lem wit="#L #Z">le ho ubbidito</lem>
                             <rdg wit="#Gt">l'ho ubbidita</rdg>
                         </app>, e ho
                         lasciato Venezia per evitare le prime persecuzioni, e le pi&#xF9; feroci. <app>
-                            <lem wit="#L">Or</lem>
+                            <lem wit="#L #Z">Or</lem>
                             <rdg wit="#Gt">Ma</rdg>
                         </app> dovr&#xF2; io
                         abbandonare anche questa mia solitudine antica, dove, senza <app>
-                            <lem wit="#L">perdere dagli occhi</lem>
+                            <lem wit="#L #Z">perdere dagli occhi</lem>
                             <rdg wit="#Gt">perdere per sempre</rdg>
                         </app> il
                         mio sciagurato paese, posso ancora sperare qualche giorno di pace? Tu mi fai
                         raccapricciare, <app>
-                            <lem wit="#L">Lorenzo; quanti sono dunque gli sventurati?</lem>
+                            <lem wit="#L #Z">Lorenzo; quanti sono dunque gli sventurati?</lem>
                             <rdg wit="#Gt">Lorenzo...quanti infelici!</rdg>
                         </app>
                         E noi, pur troppo, noi stessi italiani ci laviamo le mani nel sangue
                         degl'italiani. Per me segua che pu&#xF2;. Poich&#xE8; ho disperato e della
                         mia patria e <app>
-                            <lem wit="#L">di me,</lem>
+                            <lem wit="#L #Z">di me,</lem>
                             <rdg wit="#Gt">di me stesso,</rdg>
                         </app> aspetto
                         tranquillamente la prigione e la morte. Il mio cadavere almeno non
@@ -275,23 +280,51 @@
                     <opener>
                         <dateline>13 Ottobre.</dateline>
                     </opener>
-                    <p>Ti scongiuro, Lorenzo; non ribattere pi&#xF9;. Ho deliberato di non
-                        allontanarmi da questi colli. &#xC8; vero ch'io aveva promesso a mia madre
-                        di rifuggirmi in qualche altro paese; ma non mi &#xE8; bastato il cuore: e
-                        mi perdoner&#xE0;, spero. Merita poi questa vita di essere conservata con la
-                        vilt&#xE0;, e con l'esilio? Oh quanti de' nostri concittadini gemeranno
-                        pentiti, lontani dalle loro case! perch&#xE8;, e che potremmo aspettarci noi
-                        se non se indigenza e disprezzo; o al pi&#xF9;, breve e sterile compassione,
-                        solo conforto che le nazioni incivilite offrono al profugo straniero? Ma
-                        dove cercher&#xF2; asilo? in Italia? terra prostituita premio sempre della
-                        vittoria. Potr&#xF2; io vedermi dinanzi agli occhi coloro che ci hanno
-                        spogliati, derisi, venduti, e non piangere d'ira? Devastatori de' popoli, si
-                        servono della libert&#xE0; come i Papi si servivano delle crociate. Ahi!
-                        sovente disperando di vendicarmi mi caccerei un coltello nel cuore per
-                        versare tutto il mio sangue fra le ultime strida della mia patria.</p>
+                    <p>Ti scongiuro, Lorenzo; non <app>
+                            <lem wit="#L #Z">ribattere</lem>
+                            <rdg wit="#Gt">insistere</rdg>
+                        </app> pi&#xF9;.
+                        Ho deliberato di non allontanarmi da questi colli. &#xC8; vero ch'io aveva
+                        promesso a mia madre di rifuggirmi in qualche altro paese; ma non mi &#xE8;
+                        bastato il cuore: e mi perdoner&#xE0;, spero. Merita poi questa vita di
+                        essere conservata con la vilt&#xE0;, e con l'esilio? Oh quanti de' nostri
+                        concittadini gemeranno pentiti, lontani dalle loro case! perch&#xE8;, e che <app>
+                            <lem wit="#L #Z">potremmo</lem>
+                            <rdg wit="#Gt">potremo</rdg>
+                        </app> aspettarci
+                        noi <app>
+                            <lem wit="#L #Z">se non se</lem>
+                            <rdg wit="#Gt">fuorchè</rdg>
+                        </app> indigenza e
+                        disprezzo; o al pi&#xF9;, breve e sterile compassione, solo conforto che le
+                        nazioni incivilite offrono al profugo straniero? Ma dove cercher&#xF2;
+                        asilo? in Italia? <app>
+                            <lem wit="#L #Z">terra prostituta</lem>
+                            <rdg wit="#Gt">infelice terra!</rdg>
+                        </app>
+                        premio sempre della vittoria. Potr&#xF2; io vedermi <app>
+                            <lem wit="#L #Z">dinanzi agli</lem>
+                            <rdg wit="#Gt">dinanzi gli</rdg>
+                        </app> occhi
+                        coloro che ci hanno spogliati, derisi, <app>
+                            <lem wit="#Z #Gt">venduti,</lem>
+                            <rdg wit="#L">venduti</rdg>
+                        </app> e non piangere
+                        d'ira? Devastatori de' popoli, si servono della libert&#xE0; come i <app>
+                            <lem wit="#L #Gt">Papi</lem>
+                            <rdg wit="#Z">papi</rdg>
+                        </app> si <app>
+                            <lem wit="#L #Z">servivano</lem>
+                            <rdg wit="#Gt">serviano</rdg>
+                        </app> delle
+                        crociate. Ahi! sovente disperando di vendicarmi mi caccerei un coltello nel
+                        cuore per versare tutto il mio sangue fra le ultime strida della mia patria.</p>
                     <p> E questi altri? &#x2014; hanno comperato la nostra schiavit&#xF9;,
                         racquistando con l'oro quello che stolidamente e vilmente hanno perduto con
-                        le armi. &#x2014; Davvero ch'io somiglio un di que' malavventurati che
+                        le armi. &#x2014; Davvero ch'io somiglio un di <app>
+                            <lem wit="#L #Z">que' malavventurati</lem>
+                            <rdg wit="#Gt">quegli infelici</rdg>
+                        </app> che
                         spacciati morti furono sepolti vivi, e che poi rinvenuti, si sono trovati
                         nel sepolcro fra le tenebre e gli scheletri, certi <corr>[di]</corr> vivere,
                         ma disperati del dolce lume della vita, e costretti a morire fra le
@@ -303,38 +336,59 @@
                     <opener>
                         <dateline>16 Ottobre.</dateline>
                     </opener>
-                    <p>Or via, non se ne parli pi&#xF9;: la burrasca pare abbonacciata; se
+                    <p>Or via, non se ne parli pi&#xF9;: la burrasca pare <app>
+                            <lem wit="#L #Z">abbonacciata</lem>
+                            <rdg wit="#Gt">acquetata</rdg>
+                        </app>; se
                         torner&#xE0; il pericolo, rassicurati, tenter&#xF2; ogni via di scamparne.
                         Del resto io vivo tranquillo; per quanto si pu&#xF2; tranquillo. Non vedo
                         persona del mondo: vo sempre vagando per la campagna; ma a dirti il vero
                         penso, e mi rodo. Mandami qualche libro.</p>
-                    <p>Che fa Lauretta? povera fanciulla! io l'ho lasciata fuori di s&#xE8;. Bella e
-                        giovine ancora, ha pur inferma la ragione; e il cuore infelice
-                        infelicissimo. Io non l'ho amata; ma fosse compassione o riconoscenza per
-                        avere ella scelto me solo consolatore del suo stato, versandomi nel petto
-                        tutta la sua anima e i suoi errori e i suoi martirj &#x2014; davvero ch'io
-                        l'avrei fatta volentieri compagna di tutta la mia vita. La sorte non ha
-                        voluto; meglio cos&#xEC;, forse. Ella amava Eugenio, e l'&#xE8; morto fra le
-                        braccia. Suo padre e i suoi fratelli hanno dovuto fuggire la loro patria, e
-                        quella povera famiglia destituta di ogni umano soccorso &#xE8; restata a
-                        vivere, chi sa come! di pianto. Eccoti, o Libert&#xE0;, un'altra vittima.
-                        Sai ch'io ti scrivo, o Lorenzo, piangendo come un ragazzo? &#x2014; pur
-                        troppo! ho avuto sempre a che fare con de' tristi; e se alle volte ho
-                        incontrato una persona dabbene ho dovuto sempre compiangerla. Addio, addio.</p>
+                    <p>Che fa Lauretta? <app>
+                            <lem wit="#L #Z">povera</lem>
+                            <rdg wit="#Gt">la povera</rdg>
+                        </app> fanciulla!
+                        io l'ho lasciata fuori di s&#xE8;. Bella e giovine ancora, <app>
+                            <lem wit="#L #Z">ha</lem>
+                            <rdg wit="#Gt">ella ha</rdg>
+                        </app> pur inferma
+                        la ragione; e il cuore infelice infelicissimo. Io non l'ho amata; ma fosse
+                        compassione o riconoscenza per avere ella scelto me solo consolatore del suo
+                        stato, versandomi nel petto tutta la sua anima e i suoi errori e i suoi
+                        martirj &#x2014; davvero ch'io l'avrei fatta volentieri compagna di tutta la
+                        mia vita. La sorte non ha voluto; meglio cos&#xEC;, forse. Ella amava
+                        Eugenio, e l'&#xE8; morto fra le braccia. Suo padre e i suoi fratelli hanno
+                        dovuto fuggire la loro patria, e quella povera famiglia destituta di ogni
+                        umano soccorso &#xE8; restata a vivere, chi sa come! di pianto. Eccoti, o <app>
+                            <lem wit="#L #Z">Libert&#xE0;</lem>
+                            <rdg wit="#Gt">rivoluzione</rdg>
+                        </app>, un'altra
+                        vittima. Sai ch'io ti scrivo, o Lorenzo, piangendo come un ragazzo? &#x2014;
+                        pur troppo! ho avuto sempre a che fare con <app>
+                            <lem wit="#L #Z">de' tristi; e se alle volte ho
+                                incontrato una persona dabbene</lem>
+                            <rdg wit="#Gt">degli scellerati, e le poche volte che ho incontrata la
+                        virtù</rdg>
+                        </app> ho dovuto sempre compiangerla.
+                        Addio, addio.</p>
                 </div2>
                 <div2 type="epistola">
                     <head>4</head>
                     <opener>
                         <dateline>18 Ottobre.</dateline>
                     </opener>
-                    <p>Michele mi ha recato il Plutarco, e te ne ringrazio. Mi disse che con altra
+                    <p>MICHELE mi ha recato il Plutarco, e te ne ringrazio. Mi disse che con altra
                         occasione m'invierai qualche altro libro; per ora basta. Col divino Plutarco
                         potr&#xF2; consolarmi de' delitti e delle sciagure dell'umanit&#xE0;
                         volgendo gli occhi ai pochi illustri che quasi primati dell'umano genere
                         sovrastano a tanti secoli e a tante genti. Temo per altro che spogliandoli
                         della magnificenza storica e della riverenza per l'antichit&#xE0;, non
-                        avr&#xF2; assai da lodarmi e n&#xE8; degli antichi, n&#xE8; de' moderni,
-                        n&#xE8; di me stesso &#x2014; umana razza!</p>
+                        avr&#xF2; <app>
+                            <lem wit="#L #Z">assai da</lem>
+                            <rdg wit="#Gt">molto a</rdg>
+                        </app> lodarmi e
+                        n&#xE8; degli antichi, n&#xE8; de' moderni, n&#xE8; di me stesso &#x2014;
+                        umana razza!</p>
                 </div2>
                 <div2 type="epistola">
                     <head>5</head>
@@ -346,101 +400,256 @@
                         conoscono sin da fanciullo e mi amano. Quantunque io viva fuggiasco, mi
                         vengono tutti d'intorno quasi volessero mansuefare una fiera generosa e
                         selvatica. Per ora io lascio correre. Veramente non ho avuto tanto bene
-                        dagli uomini da fidarmene cos&#xEC; alle prime: ma quel menare la vita del
-                        tiranno che freme e trema d'essere scannato a ogni minuto, mi pare un
-                        agonizzare in una morte lenta, obbrobriosa. Io seggo con essi a mezzod&#xEC;
-                        sotto il platano della chiesa leggendo loro le vite di Licurgo e di
-                        Timoleone. Domenica mi s'erano affollati intorno tutti i contadini, che,
-                        quantunque non comprendessero affatto, stavano ascoltandomi a bocca aperta.
-                        Credo che il desiderio di sapere e ridire la storia de' tempi andati sia
-                        figlio del nostro amor proprio che vorrebbe illudersi e prolungare la vita
-                        unendoci agli uomini ed alle cose che non sono pi&#xF9;, e facendole, sto
-                        per dire, di nostra propriet&#xE0;. Ama la immaginazione di spaziare fra i
-                        secoli e di possedere un altro universo. Con che passione un vecchio
-                        lavoratore mi narrava stamattina la vita de' parrochi della villa viventi
-                        nella sua fanciullezza, e mi descriveva i danni della tempesta di
-                        trentasett'anni addietro, e i tempi dell'abbondanza, e quei della fame,
-                        rompendo il filo ogni tanto, ripigliandolo, e scusandosi
-                        dell'infedelt&#xE0;! Cos&#xEC; mi riesce di dimenticarmi ch'io vivo.</p>
-                    <p>&#xC8; venuto a visitarmi il signore T. che tu conoscesti a Padova. Mi disse
-                        che spesso gli parlavi di me, e che jer l'altro glien'hai scritto. Anche
-                        egli s'&#xE8; ridotto in campagna per evitare i primi furori del volgo,
-                        quantunque a dir vero non siasi molto ingerito ne' pubblici affari. Io
-                        n'aveva inteso parlare come d'uomo di colto ingegno e di somma onest&#xE0;:
-                        doti temute in passato, ma adesso non possedute impunemente. Ha tratto
-                        cortese, fisonomia liberale, e parla col cuore. V'era con lui un tale;
-                        credo, lo sposo promesso di sua figlia. Sar&#xE0; forse un bravo e buono
-                        giovine; ma la sua faccia non dice nulla. Buona notte.</p>
+                        dagli uomini da fidarmene cos&#xEC; <app>
+                            <lem wit="#L #Z">alle prime:</lem>
+                            <rdg wit="#Gt">a un tratto</rdg>
+                        </app> ma quel
+                        menare la vita del tiranno che freme e trema d'essere scannato a ogni
+                        minuto, mi pare un agonizzare in una morte lenta, obbrobriosa. Io <app>
+                            <lem wit="#L #Z">seggo</lem>
+                            <rdg wit="#Gt">siedo</rdg>
+                        </app> con essi a
+                        mezzod&#xEC; sotto il platano della chiesa leggendo loro le vite di Licurgo
+                        e di Timoleone. Domenica mi s'erano affollati intorno tutti i contadini,
+                        che, quantunque non comprendessero affatto, stavano ascoltandomi a bocca
+                        aperta. Credo che il desiderio di <app>
+                            <lem wit="#L #Z">sapere e ridire la storia</lem>
+                            <rdg wit="#Gt">sapere la storia</rdg>
+                        </app> de'
+                        tempi andati sia figlio del nostro amor proprio che vorrebbe illudersi e
+                        prolungare la vita unendoci agli uomini ed alle cose che non sono pi&#xF9;,
+                        e facendole, sto per dire, di nostra propriet&#xE0;. Ama la immaginazione di
+                        spaziare fra i secoli e di possedere un altro universo. <app>
+                            <lem wit="#L #Z">Con che</lem>
+                            <rdg wit="#Gt">con quanta</rdg>
+                        </app> passione
+                        un vecchio lavoratore mi narrava stamattina la vita de' parrochi della villa
+                        viventi nella sua fanciullezza, e mi descriveva i danni della tempesta di <app>
+                            <lem wit="#Z #Gt">trentasett'anni</lem>
+                            <rdg wit="#L">trenta, sett'anni</rdg>
+                        </app>
+                        addietro, e i tempi dell'abbondanza, e quei della fame, <app>
+                            <lem wit="#L #Z">rompendo il filo ogni tanto, ripigliandolo, e
+                                scusandosi
+                                dell'infedelt&#xE0;!</lem>
+                            <rdg wit="#Gt">interrompendosi ad ogni tratto, ripigliando il racconto
+                                ed accusandosi d'infedelt&#xE0;.</rdg>
+                        </app>
+                        Cos&#xEC; mi riesce di dimenticarmi ch'io vivo.</p>
+                    <p>&#xC8; venuto a <app>
+                            <lem wit="#L #Z">visitarmi</lem>
+                            <rdg wit="#Gt">trovarmi</rdg>
+                        </app> il signore
+                        T. che tu conoscesti a Padova. Mi disse che spesso gli parlavi di me, e che
+                        jer l'altro <app>
+                            <lem wit="#Z">glien'hai</lem>
+                            <rdg wit="#L #Gt">glie n'hai</rdg>
+                        </app>
+                        scritto. Anche egli s'&#xE8; <app>
+                            <lem wit="#L #Z">ridotto</lem>
+                            <rdg wit="#Gt">ritirato</rdg>
+                        </app> in campagna
+                        per evitare i primi furori del volgo, quantunque a dir vero non siasi molto <app>
+                            <lem wit="#L #Z">ingerito</lem>
+                            <rdg wit="#Gt">intricato</rdg>
+                        </app> ne'
+                        pubblici affari. Io n'aveva <app>
+                            <lem wit="#L #Z">inteso</lem>
+                            <rdg wit="#Gt">sentito</rdg>
+                        </app> parlare come
+                        d'uomo di colto ingegno e di somma onest&#xE0;: doti temute in passato, ma
+                        adesso non possedute impunemente. Ha tratto cortese, fisonomia liberale, e
+                        parla col cuore. V'era con lui un tale; credo, lo sposo promesso di sua
+                        figlia. Sar&#xE0; forse un bravo e buono giovine; ma la sua faccia non dice
+                        nulla. Buona notte.</p>
                 </div2>
                 <div2 type="epistola">
                     <head>6</head>
                     <opener>
                         <dateline>24 Ottobre.</dateline>
                     </opener>
-                    <p>L'ho pur una volta afferrato nel collo quel ribaldo contadinello che dava il
-                        guasto al nostro orto, tagliando e rompendo tutto quello che non poteva
-                        rubare. Egli era sopra un pesco, io sotto una pergola: scavezzava
-                        allegramente i rami ancora verdi perch&#xE8; di frutta non ve ne erano
-                        pi&#xF9;: appena l'ebbi fra le ugne, cominci&#xF2; a gridare: Misericordia!
-                        Mi confess&#xF2; che da pi&#xF9; settimane facea quello sciagurato mestiere
-                        perch&#xE8; il fratello dell'ortolano aveva qualche mese addietro rubato un
-                        sacco di fave a suo padre. &#x2014; E tuo padre t'insegna a rubare? &#x2014;
-                        In fede mia, signor mio, fanno tutti cos&#xEC;. &#x2014; L'ho lasciato
-                        andare, e scavalcando una siepe io gridava: Ecco la societ&#xE0; in
-                        miniatura; tutti cos&#xEC;.</p>
+                    <p>L'HO pur <app>
+                            <lem wit="#L #Z">una volta</lem>
+                            <rdg wit="#Gt">finalmente</rdg>
+                        </app> afferrato
+                        nel collo quel ribaldo contadinello che dava il guasto al nostro orto,
+                        tagliando e rompendo tutto quello che non poteva rubare. Egli era sopra un
+                        pesco, io sotto una pergola: scavezzava allegramente i rami ancora verdi
+                        perch&#xE8; di frutta non ve ne erano pi&#xF9;: appena l'ebbi fra le ugne,
+                        cominci&#xF2; a gridare: Misericordia! Mi confess&#xF2; che da pi&#xF9;
+                        settimane facea quello sciagurato mestiere perch&#xE8; il fratello
+                        dell'ortolano aveva qualche mese addietro rubato un sacco di fave a suo
+                        padre. &#x2014; E tuo padre t'insegna a rubare? &#x2014; In fede mia, <app>
+                            <lem wit="#L #Z">signor mio</lem>
+                            <rdg wit="#Gt">signore</rdg>
+                        </app>, fanno tutti
+                        cos&#xEC;.<app>
+                            <lem wit="#L"></lem>
+                            <rdg wit="#Gt #Z">
+                                <lb />
+                            </rdg>
+                        </app>
+                        &#x2014; <app>
+                            <lem wit="#L">L'ho lasciato andare, e scavalcando una siepe</lem>
+                            <rdg wit="#Z">L'ho liberato, e scavalcando una siepe</rdg>
+                            <rdg wit="#Gt">L'ho liberato, e saltando a precipizio fuor d'una siepe</rdg>
+                        </app>
+                        io gridava: Ecco la societ&#xE0; in miniatura; tutti cos&#xEC;.</p>
                 </div2>
                 <div2 type="epistola">
                     <head>7</head>
                     <opener>
                         <dateline>26 Ottobre.</dateline>
                     </opener>
-                    <p> La ho veduta, o Lorenzo, <hi rend="italic">la divina fanciulla</hi> ; e te
-                        ne ringrazio. La trovai seduta miniando il proprio ritratto. Si rizz&#xF2;
-                        salutandomi come s'ella mi conoscesse, e ordin&#xF2; a un servitore che
-                        andasse a cercar di suo padre. Egli non si sperava, mi diss'ella, che voi
-                        sareste venuto; sar&#xE0; per la campagna; n&#xE8; star&#xE0; molto a
-                        tornare. Una ragazzina le corse fra le ginocchia dicendole non so che
-                        all'orecchio. &#xC8; un amico di Lorenzo, le rispose Teresa, &#xE8; quello
-                        che il babbo and&#xF2; a trovare l'altr'jeri. Torn&#xF2; frattanto il
-                        signore T.: m'accoglieva famigliarmente, ringraziandomi che io mi fossi
-                        sovvenuto di lui. Teresa intanto, prendendo per mano la sua sorellina,
-                        partiva. Vedete, mi diss'egli, additandomi le sue figliuole che uscivano
-                        dalla stanza; eccoci tutti. Profer&#xEC;, parmi, queste parole come se
-                        volesse farmi sentire che gli mancava sua moglie. Non la nomin&#xF2;. Si
-                        ciarl&#xF2; lunga pezza. Mentr'io stava per congedarmi, torn&#xF2; Teresa:
-                        Non siamo tanto lontani, mi disse; venite qualche sera a veglia con noi. </p>
-                    <p>Io tornava a casa col cuore in festa. &#x2014; Che? lo spettacolo della
-                        bellezza basta forse ad addormentare in noi tristi mortali e tutti i dolori?
-                        vedi per me una sorgente di vita: unica certo, e chi sa! fatale. Ma se io
-                        sono predestinato ad avere l'anima perpetuamente in tempesta, non &#xE8;
-                        tutt'uno?</p>
+                    <p>
+                        <app>
+                            <lem wit="#L #Z">LA ho veduta, o Lorenzo, <hi rend="italic">la divina
+                        fanciulla;</hi></lem>
+                            <rdg wit="#Gt">
+                                La divina fanciulla! io l'ho veduta, Lorenzo,
+                            </rdg>
+                        </app>
+                        e te ne ringrazio. La trovai seduta miniando il proprio ritratto. Si
+                        rizz&#xF2; salutandomi come s'ella mi conoscesse, e ordin&#xF2; a un
+                        servitore <app>
+                            <lem wit="#L #Z">che andasse</lem>
+                            <rdg wit="#Gt">
+                                di andare
+                            </rdg>
+                        </app>
+                        a cercar di suo padre. Egli <app>
+                            <lem wit="#L #Z">non si sperava</lem>
+                            <rdg wit="#Gt">
+                                non pensava
+                            </rdg>
+                        </app>,
+                        mi diss'ella, che voi sareste venuto; sar&#xE0; per la campagna; n&#xE8;
+                        star&#xE0; molto a tornare. <app>
+                            <lem wit="#L #Z">Una</lem>
+                            <rdg wit="#Gt">
+                                Ho accostato la mia sedia alla sua. Una
+                            </rdg>
+                        </app>
+                        ragazzina le corse fra le ginocchia dicendole non so che all'orecchio.
+                        &#xC8; <app>
+                            <lem wit="#L">un amico</lem>
+                            <rdg wit="#Gt #Z">
+                                l'amico
+                            </rdg>
+                        </app>
+                        di Lorenzo, le rispose Teresa, &#xE8; quello che il babbo and&#xF2; a
+                        trovare l'altr'jeri. Torn&#xF2; frattanto il signore T.: m'accoglieva
+                        famigliarmente, ringraziandomi <app>
+                            <lem wit="#L #Z">che io mi fossi sovvenuto</lem>
+                            <rdg wit="#Gt">
+                                perch'io m'era sovvenuto
+                            </rdg>
+                        </app>
+                        di lui. Teresa intanto, prendendo per mano la sua sorellina, partiva.
+                        Vedete, mi diss'egli, additandomi le sue figliuole che uscivano dalla
+                        stanza; eccoci tutti. <app>
+                            <lem wit="#L #Z">Profer&#xEC;, parmi, queste parole come se volesse
+                                farmi sentire che gli mancava sua moglie. Non la nomin&#xF2;</lem>
+                            <rdg wit="#Gt">
+                                Profer&#xEC; egli queste parole come se volesse farmi partecipe
+                                delle loro disgrazie, e della loro felicità.
+                            </rdg>
+                        </app>
+                        Si ciarl&#xF2; lunga pezza. Mentr'io stava per congedarmi, torn&#xF2;
+                        Teresa: Non siamo tanto lontani, mi disse; venite qualche sera a veglia <app>
+                            <lem wit="#L #Z">con</lem>
+                            <rdg wit="#Gt">
+                                da
+                            </rdg>
+                        </app>
+                        noi. </p>
+                    <p>Io tornava a casa col cuore in festa. &#x2014; <app>
+                            <lem wit="#L #Z">Che?</lem>
+                            <rdg wit="#Gt">
+                                O Lorenzo!
+                            </rdg>
+                        </app>
+                        lo spettacolo della bellezza basta forse <app>
+                            <lem wit="#L #Z">ad addormentare in noi tristi
+                                mortali</lem>
+                            <rdg wit="#Gt">
+                                addormentare a' mortali
+                            </rdg>
+                        </app>
+                        tutti i dolori? vedi per me una sorgente di vita: unica certo, e chi sa!
+                        fatale. Ma se io sono <app>
+                            <lem wit="#L #Z">predestinato</lem>
+                            <rdg wit="#Gt">
+                                condannato
+                            </rdg>
+                        </app>
+                        ad avere l'anima <app>
+                            <lem wit="#L #Z">perpetuamente</lem>
+                            <rdg wit="#Gt">
+                                sempre
+                            </rdg>
+                        </app>
+                        in tempesta, non &#xE8; tutt'uno?</p>
                 </div2>
                 <div2 type="epistola">
                     <head>8</head>
                     <opener>
                         <dateline>28 Ottobre.</dateline>
                     </opener>
-                    <p>Taci, taci: &#x2014; vi sono de' giorni ch'io non posso fidarmi di me: un
-                        demone mi arde, mi agita, mi divora. Forse io mi reputo molto; ma e' mi pare
-                        impossibile che la nostra patria sia cos&#xEC; conculcata mentre ci resta
-                        ancora una vita. Che facciam noi tutti i giorni vivendo e querelandoci?
-                        insomma non parlarmene pi&#xF9;, ti scongiuro. Narrandomi le nostre tante
-                        miserie mi rinfacci tu forse perch&#xE8; io mi sto qui neghittoso? e non
-                        t'avvedi che tu mi strazi fra mille martirj? Oh! se il tiranno fosse uno
-                        solo, e i servi fossero meno stupidi, la mia mano basterebbe. Ma chi mi
-                        biasima or di vilt&#xE0;, m'accuserebbe allor di delitto; e il savio stesso
-                        compiangerebbe in me, anzich&#xE8; il consiglio del forte, il furore del
-                        forsennato. Che vuoi tu imprendere fra due potenti nazioni che nemiche
-                        giurate, feroci, eterne, si collegano soltanto per incepparci? e dove la
-                        loro forza non vale, gli uni c'ingannano con l'entusiasmo di libert&#xE0;,
-                        gli altri col fanatismo di religione: e noi tutti guasti dall'antico
-                        servaggio e dalla nuova licenza, gemiamo vili schiavi, traditi, affamati, e
-                        non provocati mai n&#xE8; dal tradimento, n&#xE8; dalla fame. &#x2014; Ahi,
-                        se potessi, seppellirei la mia casa, i miei pi&#xF9; cari e me stesso per
-                        non lasciar nulla nulla che potesse inorgoglire costoro della loro
-                        onnipotenza e della mia servit&#xF9;! E' vi furono de' popoli che per non
-                        obbedire a' Romani ladroni del mondo, diedero all'incendio le loro case, le
-                        loro mogli, i loro figli e s&#xE8; medesimi, sotterrando fra le gloriose
+                    <p>TACI, taci: &#x2014; vi sono de' giorni ch'io non posso fidarmi di me: un
+                        demone <app>
+                            <lem wit="#L">mi arde</lem>
+                            <rdg wit="#Gt #Z">
+                                m'arde
+                            </rdg>
+                        </app>,
+                        mi agita, mi divora. Forse io mi reputo molto; ma e' mi pare impossibile che
+                        la nostra patria sia cos&#xEC; conculcata mentre ci resta ancora una vita.
+                        Che facciam noi tutti i giorni vivendo e querelandoci? insomma non
+                        parlarmene pi&#xF9;, ti scongiuro. Narrandomi le nostre tante miserie mi
+                        rinfacci tu forse perch&#xE8; io mi sto qui neghittoso? e non t'avvedi che
+                        tu mi strazi fra mille martirj? Oh! se il tiranno fosse uno solo, e i servi
+                        fossero meno stupidi, la mia mano basterebbe. Ma chi mi biasima or di
+                        vilt&#xE0;, m'accuserebbe allor di delitto; e il <app>
+                            <lem wit="#L #Z">savio</lem>
+                            <rdg wit="#Gt">
+                                saggio
+                            </rdg>
+                        </app>
+                        stesso compiangerebbe in me, anzich&#xE8; il consiglio del forte, il furore
+                        del forsennato. Che vuoi tu imprendere fra due potenti nazioni che nemiche
+                        giurate, feroci, eterne, si collegano soltanto per <app>
+                            <lem wit="#L #Gt">incepparci? e dove</lem>
+                            <rdg wit="#Z">
+                                incepparci; e dove
+                            </rdg>
+                        </app>
+                        la loro forza non vale, gli uni c'ingannano con l'entusiasmo di
+                        libert&#xE0;, gli altri col fanatismo di religione: e noi tutti guasti
+                        dall'antico servaggio e dalla nuova licenza, gemiamo vili schiavi, traditi,
+                        affamati, e non <app>
+                            <lem wit="#L #Z">provocati</lem>
+                            <rdg wit="#Gt">
+                                concitati
+                            </rdg>
+                        </app>
+                        mai n&#xE8; dal tradimento, n&#xE8; dalla fame. &#x2014; Ahi, se potessi,
+                        seppellirei la mia casa, i miei pi&#xF9; cari e me stesso per non lasciar
+                        nulla nulla che potesse inorgoglire costoro della loro onnipotenza e della
+                        mia servit&#xF9;! E' vi furono de' popoli che per non obbedire a' Romani
+                        ladroni del mondo, diedero <app>
+                            <lem wit="#L #Z">all'incendio</lem>
+                            <rdg wit="#Gt">
+                                alle fiamme
+                            </rdg>
+                        </app>
+                        le loro case, le loro mogli, i loro figli e s&#xE8; medesimi, sotterrando
+                        fra le <app>
+                            <lem wit="#L #Z">gloriose</lem>
+                            <rdg wit="#Gt">
+                                immense
+                            </rdg>
+                        </app>
                         ruine e le ceneri della loro patria la lor sacra indipendenza.</p>
                 </div2>
                 <div2 type="epistola">
@@ -448,45 +657,115 @@
                     <opener>
                         <dateline>1 Novembre.</dateline>
                     </opener>
-                    <p> Io sto bene, bene per ora come un infermo che dorme e non sente i dolori; e
-                        mi passano gl'interi giorni in casa del signore T. che mi ama come
-                        figliuolo: mi lascio illudere, e l'apparente felicit&#xE0; di quella
-                        famiglia mi sembra reale, e mi sembra anche mia. Se nondimeno non vi fosse
-                        quello sposo, perch&#xE8; davvero &#x2014; io non odio persona del mondo, ma
-                        vi sono cert'uomini ch'io ho bisogno di vedere soltanto da lontano. &#x2014;
-                        Suo suocero me n'andava tessendo jer sera un lungo elogio in forma di
-                        commendatizia: <hi rend="italic">buono &#x2014; esatto &#x2014; paziente!</hi>
-                        e niente altro? possedesse queste doti con angelica perfezione, s'egli
-                        avr&#xE0; il cuore sempre cos&#xEC; morto, e quella faccia magistrale non
-                        animata mai n&#xE8; dal sorriso dell'allegria, n&#xE8; dal dolce silenzio
+                    <p> Io sto bene, bene per ora come un infermo che dorme e non sente i dolori; <app>
+                            <lem wit="#L #Z">e mi passano gl'interi giorni</lem>
+                            <rdg wit="#Gt">
+                                Io passo le intere giornate
+                            </rdg>
+                        </app>
+                        in casa del signore T. che mi ama come figliuolo: mi lascio illudere, e <app>
+                            <lem wit="#L #Z">l'apparente felicit&#xE0; di quella famiglia mi sembra
+                        reale, e mi sembra
+                                anche mia.</lem>
+                            <rdg wit="#Gt">
+                                la felicit&#xE0; di quella buona famiglia mi sembra mia,
+                            </rdg>
+                        </app>
+                        Se nondimeno non vi fosse quello sposo, perch&#xE8; davvero &#x2014; io non
+                        odio persona del mondo, ma vi sono cert'uomini ch'io ho bisogno di vedere
+                        soltanto da lontano. &#x2014; Suo suocero me n'andava tessendo jer sera un
+                        lungo elogio in forma di commendatizia: <hi
+                            rend="italic">buono &#x2014; esatto &#x2014; paziente!</hi> e niente
+                        altro? possedesse queste doti con angelica perfezione, s'egli avr&#xE0; il
+                        cuore sempre cos&#xEC; morto, e quella faccia magistrale non animata mai
+                        n&#xE8; dal sorriso dell'allegria, n&#xE8; dal dolce <app>
+                            <lem wit="#L #Z">silenzio</lem>
+                            <rdg wit="#Gt">
+                                raggio
+                            </rdg>
+                        </app>
                         della piet&#xE0;, sar&#xE0; per me un di que' rosaj senza fiori che mi fanno
-                        temere le spine. Cos'&#xE8; l'uomo se tu lo abbandoni alla sola ragione
-                        fredda, calcolatrice? scellerato, e scellerato bassamente. &#x2014; Del
-                        resto, Odoardo sa di musica; giuoca bene a scacchi; mangia, legge, dorme,
-                        passeggia, e tutto con l'oriuolo alla mano; e non parla con enfasi se non
-                        per magnificare tuttavia la sua ricca e scelta biblioteca. Ma quando egli mi
-                        va ripetendo con quella sua voce cattedratica, <hi rend="italic">ricca e
-                        scelta</hi> , io sto l&#xEC; l&#xEC; per dargli una solenne smentita. Se le
-                        umane frenesie che col nome di <hi rend="italic">scienze</hi> e di <hi
+                        temere le spine. Cos'&#xE8; l'uomo se tu lo <app>
+                            <lem wit="#L #Z">abbandoni</lem>
+                            <rdg wit="#Gt">
+                                lasci
+                            </rdg>
+                        </app>
+                        alla sola ragione fredda, calcolatrice? scellerato, e scellerato bassamente.
+                        &#x2014; Del resto, Odoardo sa di musica; giuoca bene a scacchi; mangia,
+                        legge, dorme, passeggia, e tutto con l'oriuolo alla mano; e non parla con
+                        enfasi se non per magnificare <app>
+                            <lem wit="#L #Z">tuttavia</lem>
+                            <rdg wit="#Gt">
+                                sempre
+                            </rdg>
+                        </app>
+                        la sua ricca e scelta biblioteca. Ma <app>
+                            <lem wit="#L">quando egli</lem>
+                            <rdg wit="#Gt #Z">
+                                quand'egli
+                            </rdg>
+                        </app>
+                        mi va ripetendo con quella sua voce cattedratica, <hi
+                            rend="italic">ricca e
+                            scelta</hi> , io sto l&#xEC; l&#xEC; per dargli una solenne smentita. Se
+                        le umane frenesie che col nome di <hi rend="italic">scienze</hi> e di <hi
                             rend="italic">dottrine</hi> si sono scritte e stampate in tutti i
                         secoli, e da tutte le genti, si riducessero a un migliajo di volumi al
-                        pi&#xF9;, e' mi pare che la presunzione de' mortali non avrebbe da lagnarsi
+                        pi&#xF9;, e' mi pare che la presunzione de' mortali non avrebbe <app>
+                            <lem wit="#L #Z">da lagnarsi</lem>
+                            <rdg wit="#Gt">
+                                a lagnarsi
+                            </rdg>
+                        </app>
                         &#x2014; e via sempre con queste dissertazioni. </p>
-                    <p> Frattanto ho preso a educare la sorellina di Teresa: le insegno a leggere e
-                        a scrivere. Quand'io sto con lei, la mia fisonomia si va rasserenando, il
-                        mio cuore &#xE8; pi&#xF9; gajo che mai, ed io fo mille ragazzate. Non so
-                        perch&#xE8;, tutti i fanciulli mi vogliono bene. E quella ragazzetta &#xE8;
-                        pur cara! bionda e ricciuta, occhi azzurri, guance pari alle rose, fresca,
-                        candida, paffutella, pare una Grazia di quattr'anni. Se tu la vedessi
-                        corrermi incontro, aggrapparmisi alle ginocchia, fuggirmi perch'io la
-                        siegua, negarmi un bacio e poi improvvisamente attaccarmi que' suoi
+                    <p> Frattanto ho preso a educare la sorellina di Teresa: <app>
+                            <lem wit="#L #Z">le</lem>
+                            <rdg wit="#Gt">
+                                io le
+                            </rdg>
+                        </app>
+                        insegno a leggere e a scrivere. Quand'io sto con lei, la mia fisonomia si va
+                        rasserenando, il mio cuore &#xE8; pi&#xF9; gajo che mai, ed io fo mille <app>
+                            <lem wit="#L #Z">ragazzate</lem>
+                            <rdg wit="#Gt">
+                                pazzie
+                            </rdg>
+                        </app>.
+                        Non so perch&#xE8;, tutti i fanciulli mi vogliono bene. E quella ragazzetta
+                        &#xE8; pur cara! bionda e ricciuta, occhi azzurri, guance pari alle rose,
+                        fresca, candida, paffutella, pare una Grazia di quattr'anni. Se tu la
+                        vedessi corrermi incontro, aggrapparmisi alle ginocchia, fuggirmi perch'io
+                        la siegua, negarmi un bacio e poi improvvisamente attaccarmi que' suoi
                         labbruzzi alla bocca! Oggi io mi stava su la cima di un albero a cogliere le
-                        frutta: quella creaturina tendeva le braccia, e balbettando pregavami che <hi
-                            rend="italic">per carit&#xE0; non cascassi</hi> . Che bell'autunno!
-                        addio Plutarco! sta sempre chiuso sotto il mio braccio. Sono tre giorni
-                        ch'io perdo la mattina a colmare un canestro d'uva e di pesche, ch'io copro
-                        di foglie, avviandomi poi lungo il fiumicello, e giunto alla villa, desto
-                        tutta la famiglia cantando la canzonetta della vendemmia. </p>
+                        frutta: quella <app>
+                            <lem wit="#L #Z">creaturina</lem>
+                            <rdg wit="#Gt">
+                                innocente
+                            </rdg>
+                        </app>
+                        tendeva le braccia, e balbettando pregavami che <hi
+                            rend="italic">per carit&#xE0; non cascassi</hi>.<app>
+                            <lem wit="#L"></lem>
+                            <rdg wit="#Gt #Z">
+                                <lb />
+                            </rdg>
+                        </app>
+                        Che bell'autunno! addio Plutarco! sta sempre chiuso sotto il mio braccio.
+                        Sono tre giorni ch'io <app>
+                            <lem wit="#L #Z">perdo</lem>
+                            <rdg wit="#Gt">
+                                passo
+                            </rdg>
+                        </app>
+                        la mattina a colmare un canestro d'uva e di <app>
+                            <lem wit="#L #Z">pesche</lem>
+                            <rdg wit="#Gt">
+                                persiche
+                            </rdg>
+                        </app>,
+                        ch'io copro di foglie, avviandomi poi lungo il fiumicello, e giunto alla
+                        villa, desto tutta la famiglia cantando la canzonetta della vendemmia. </p>
                 </div2>
                 <div2 type="epistola">
                     <head>10</head>
@@ -495,97 +774,250 @@
                     </opener>
                     <p> Jeri giorno di festa abbiamo con solennit&#xE0; trapiantato i pini delle
                         vicine collinette sul monte rimpetto la chiesa. Mio padre pure tentava di
-                        fecondare quello sterile monticello; ma i cipressi ch'esso vi pose non hanno
-                        mai potuto allignare, e i pini sono ancor giovinetti. Assistito io da
-                        parecchi lavoratori ho coronato la vetta, onde casca l'acqua, di cinque
-                        pioppi, ombreggiando la costa orientale di un folto boschetto che sar&#xE0;
-                        il primo salutato dal Sole quando splendidamente comparir&#xE0; dalle cime
-                        de' monti. E jeri appunto il Sole pi&#xF9; sereno del solito riscaldava
-                        l'aria irrigidita dalla nebbia del morente autunno. Le villanelle vennero
-                        sul mezzod&#xEC; co' loro grembiuli di festa intrecciando i giuochi e le
-                        danze di canzonette e di brindisi. Tale di esse era la sposa novella, tale
-                        la figliuola, e tal'altra la innamorata di alcuno de' lavoratori; e tu sai
-                        che i nostri contadini sogliono, allorch&#xE8; si trapianta, convertire la
-                        fatica in piacere, credendo per antica tradizione de' loro avi e bisavi, che
-                        senza il giolito de' bicchieri gli alberi non possano mettere salda radice
-                        nella terra straniera. &#x2014; Frattanto io mi vagheggiava nel lontano
-                        avvenire un pari giorno di verno quando canuto mi trarr&#xF2; passo passo
-                        sul mio bastoncello a confortarmi a' raggi del Sole, s&#xEC; caro a' vecchi:
-                        salutando, mentre usciranno dalla chiesa, i curvi villani gi&#xE0; miei
-                        compagni ne' d&#xEC; che la giovent&#xF9; rinvigoriva le nostre membra; e
-                        compiacendomi delle frutta che, bench&#xE8; tarde, avranno prodotto gli
-                        alberi piantati dal padre mio. Conter&#xF2; allora con fioca voce le nostre
-                        umili storie a' miei e a' tuoi nepotini, o a quei di Teresa che mi
-                        scherzeranno dattorno. E quando le ossa mie fredde dormiranno sotto quel
-                        boschetto alloramai ricco ed ombroso, forse nelle sere d'estate al patetico
-                        susurrar delle fronde si uniranno i sospiri degli antichi padri della villa,
-                        i quali al suono della campana de' morti pregheranno pace allo spirito
-                        dell'uomo dabbene e raccomanderanno la sua memoria ai lor figli. E se
-                        talvolta lo stanco mietitore verr&#xE0; a ristorarsi dall'arsura di giugno,
-                        esclamer&#xE0; guardando la mia fossa: <hi rend="italic">Egli egli
-                        innalz&#xF2; queste fresche ombre ospitali!</hi> &#x2014; O illusioni! e chi
-                        non ha patria, come pu&#xF2; dire lascier&#xF2; qua o l&#xE0; le mie ceneri? </p>
-                    <q rend="block">
-                        <lg>
-                            <l>
-                                <hi rend="italic">O fortunati! e ciascuno era certo</hi>
-                            </l>
-                            <l>
-                                <hi rend="italic">Della sua sepoltura; ed ancor nullo</hi>
-                            </l>
-                            <l>
-                                <hi rend="italic">Era, per Francia, talamo deserto.</hi>
-                            </l>
-                        </lg>
-                        <p> (Dante <hi rend="italic">Parad.</hi> XV) </p>
-                    </q>
+                        fecondare <app>
+                            <lem wit="#L">quello</lem>
+                            <rdg wit="#Gt #Z">
+                                questo
+                            </rdg>
+                        </app>
+                        sterile monticello; ma i cipressi <app>
+                            <lem wit="#L #Z">ch'esso</lem>
+                            <rdg wit="#Gt">
+                                ch'egli
+                            </rdg>
+                        </app>
+                        vi pose non hanno mai potuto allignare, e i pini sono ancor giovinetti.
+                        Assistito io da parecchi lavoratori ho coronato la vetta, onde casca
+                        l'acqua, di cinque pioppi, ombreggiando la costa orientale di un folto
+                        boschetto che sar&#xE0; il primo salutato dal Sole quando splendidamente
+                        comparir&#xE0; dalle cime de' monti. E jeri appunto il Sole pi&#xF9; sereno
+                        del solito riscaldava l'aria irrigidita dalla nebbia del morente autunno. Le
+                        villanelle vennero sul <app>
+                            <lem wit="#L #Z">mezzod&#xEC;</lem>
+                            <rdg wit="#Gt">
+                                mezzogiorno
+                            </rdg>
+                        </app>
+                        co' loro grembiuli di festa intrecciando i giuochi e le danze di canzonette
+                        e di brindisi. Tale di esse era la sposa novella, tale la figliuola, e
+                        tal'altra la innamorata di alcuno de' lavoratori; e tu sai che i nostri
+                        contadini sogliono, <app>
+                            <lem wit="#L #Z">allorch&#xE8;</lem>
+                            <rdg wit="#Gt">
+                                quando
+                            </rdg>
+                        </app>
+                        si trapianta, convertire la fatica in piacere, credendo per antica
+                        tradizione de' loro avi e bisavi, che senza il <app>
+                            <lem wit="#L #Z">giolito</lem>
+                            <rdg wit="#Gt">
+                                giubbilo
+                            </rdg>
+                        </app>
+                        de' bicchieri gli alberi non possano mettere salda radice nella terra
+                        straniera. &#x2014; <app>
+                            <lem wit="#L #Z">Frattanto io mi vagheggiava</lem>
+                            <rdg wit="#Gt">
+                                Io frattanto mi dipingeva
+                            </rdg>
+                        </app>
+                        nel lontano avvenire un pari giorno di verno quando canuto mi trarr&#xF2;
+                        passo passo sul mio bastoncello a confortarmi a' raggi del Sole, s&#xEC;
+                        caro a' vecchi: salutando, mentre usciranno dalla chiesa, i curvi villani
+                        gi&#xE0; miei compagni ne' d&#xEC; che la giovent&#xF9; rinvigoriva le
+                        nostre membra; e compiacendomi delle frutta che, bench&#xE8; tarde, avranno
+                        prodotto gli alberi piantati dal padre mio. Conter&#xF2; allora con fioca
+                        voce le nostre umili storie a' miei e a' tuoi nepotini, o a quei di Teresa
+                        che mi scherzeranno <app>
+                            <lem wit="#L #Z">dattorno</lem>
+                            <rdg wit="#Gt">
+                                d'intorno
+                            </rdg>
+                        </app>.
+                        E quando le ossa mie fredde dormiranno sotto quel boschetto <app>
+                            <lem wit="#L #Z">alloramai</lem>
+                            <rdg wit="#Gt">
+                                ormai
+                            </rdg>
+                        </app>
+                        ricco ed ombroso, forse nelle sere d'estate al patetico susurrar delle
+                        fronde si uniranno i sospiri degli antichi padri della villa, i quali al
+                        suono della campana de' morti pregheranno pace allo spirito dell'uomo
+                        dabbene e raccomanderanno la sua memoria ai lor figli. E se talvolta lo
+                        stanco mietitore verr&#xE0; a ristorarsi dall'arsura di giugno,
+                        esclamer&#xE0; guardando la mia fossa: <hi
+                            rend="italic">Egli egli
+                            innalz&#xF2; queste fresche ombre ospitali!</hi> <app>
+                            <lem wit="#L #Z">&#x2014; O illusioni! e
+                                chi non ha patria, come pu&#xF2; dire lascier&#xF2; qua o l&#xE0; le
+                        mie
+                                ceneri? </lem>
+                            <rdg wit="#Gt">
+                            </rdg>
+                        </app></p>
+                    <app>
+                        <lem wit="#L #Z">
+                            <q rend="block">
+                                <lg>
+                                    <l>
+                                        <hi rend="italic">O fortunati! e ciascuno era certo</hi>
+                                    </l>
+                                    <l>
+                                        <hi rend="italic">Della sua sepoltura; ed ancor nullo</hi>
+                                    </l>
+                                    <l>
+                                        <hi rend="italic">Era, per Francia, talamo deserto.</hi>
+                                    </l>
+                                </lg>
+                                <p> (DANTE <hi rend="italic">Parad.</hi> XV) </p>
+                            </q>
+                        </lem>
+                        <rdg wit="#Gt">
+                        </rdg>
+                    </app>
                 </div2>
                 <div2 type="epistola">
                     <head>11</head>
                     <opener>
                         <dateline>20 Novembre.</dateline>
                     </opener>
-                    <p>Pi&#xF9; volte incominciai questa lettera: ma la faccenda andava assai per le
+                    <p>PI&#xD9; volte incominciai questa lettera: ma la faccenda andava assai per le
                         lunghe; e la bella giornata, la promessa di trovarmi alla villa per tempo, e
-                        la solitudine &#x2014; ridi? &#x2014; L'altr'jeri, e jeri mi svegliava
-                        proponendo di scriverti; e senza accorgermi, mi trovava fuori di casa.</p>
-                    <p>Piove, grandina, fulmina: penso di rassegnarmi alla necessit&#xE0;, e di
-                        giovarmi di questa giornata d'inferno, scrivendoti. &#x2014; Sei o sette
-                        giorni addietro s'&#xE8; iti in pellegrinaggio. Io ho veduto la Natura
-                        pi&#xF9; bella che mai. Teresa, suo padre, Odoardo, la piccola Isabellina ed
-                        io siamo andati a visitare la casa del Petrarca in Arqu&#xE0;. Arqu&#xE0;
-                        &#xE8; discosto, come tu sai, quattro miglia dalla mia casa; ma per pi&#xF9;
-                        accorciare il cammino prendemmo la via dell'erta. S'apriva appena il
-                        pi&#xF9; bel giorno d'autunno. Parea che la Notte segu&#xEC;ta dalle tenebre
-                        e dalle stelle fuggisse dal Sole, che uscia nel suo immenso splendore dalle
-                        nubi d'oriente, quasi dominatore dell'universo; e l'universo sorridea. Le
-                        nuvole dorate e dipinte a mille colori salivano su la volta del cielo che
-                        tutto sereno mostrava quasi di schiudersi per diffondere sovra i mortali le
-                        cure della Divinit&#xE0;. Io salutava a ogni passo la famiglia de' fiori e
-                        dell'erbe che a poco a poco alzavano il capo chinato dalla brina. Gli alberi
-                        susurrando soavemente, faceano tremolare contro la luce le gocce trasparenti
-                        della rugiada; mentre i venti dell'aurora rasciugavano il soverchio umore
-                        alle piante. Avresti udito una solenne armonia spandersi confusamente fra le
-                        selve, gli augelli, gli armenti, i fiumi, e le fatiche degli uomini: e
-                        intanto spirava l'aria profumata delle esalazioni che la terra esultante di
-                        piacere mandava dalle valli e da' monti al Sole, ministro maggiore della
-                        Natura. &#x2014; Io compiango lo sciagurato che pu&#xF2; destarsi muto,
-                        freddo e guardare tanti beneficj senza sentirsi gli occhi bagnati dalle
-                        lagrime della riconoscenza. Allora ho veduto Teresa nel pi&#xF9;
-                        bell'apparato delle sue grazie. Il suo aspetto per lo pi&#xF9; sparso di una
-                        dolce malinconia, si andava animando di una gioja schietta, viva, che le
-                        usciva dal cuore; la sua voce era soffocata; i suoi grandi occhi neri aperti
-                        prima nell'estasi, si inumidivano poscia a poco a poco: tutte le sue potenze
-                        parevano invase dalla sacra belt&#xE0; della campagna. In tanta piena di
-                        affetti le anime si schiudono per versarli nell'altrui petto: ed ella si
-                        volgeva a Odoardo. Eterno Iddio! parea ch'egli andasse tentone fra le
-                        tenebre della notte, o ne' deserti abbandonati dalla benedizione della
-                        Natura. Lo lasci&#xF2; tutto a un tratto, e s'appoggi&#xF2; al mio braccio,
-                        dicendomi &#x2014; ma, Lorenzo! per quanto mi studi di continuare, conviene
-                        pur ch'io mi taccia. Se potessi dipingerti la sua pronunzia, i suoi gesti,
-                        la melodia della sua voce, la sua celeste fisonomia, o ricopiar non
-                        foss'altro le sue parole senza cangiarne o traslocarne sillaba, certo che tu
-                        mi sapresti grado; diversamente, rincresco persino a me stesso. Che giova
+                        la solitudine &#x2014; ridi? &#x2014; L'altr'jeri, e jeri mi svegliava <app>
+                            <lem wit="#L #Z">proponendo</lem>
+                            <rdg wit="#Gt">
+                                proponendomi
+                            </rdg>
+                        </app>
+                        di scriverti; <app>
+                            <lem wit="#L">e senza accorgermi, mi trovava fuori di casa.</lem>
+                            <rdg wit="#Gt">
+                                ed eccomi invece, senz'accorgermi, fuori di casa.
+                            </rdg>
+                            <rdg wit="#Z">
+                                e senz'accorgermi, mi trovava fuori di casa.
+                            </rdg>
+                        </app></p>
+                    <p>Piove, grandina, fulmina: penso di rassegnarmi alla necessit&#xE0;, e di <app>
+                            <lem wit="#L #Z">giovarmi</lem>
+                            <rdg wit="#Gt">
+                                profittare
+                            </rdg>
+                        </app>
+                        di questa giornata d'inferno, scrivendoti. &#x2014; Sei o sette giorni
+                        addietro s'&#xE8; iti in pellegrinaggio. Io ho veduto la Natura pi&#xF9;
+                        bella che mai. Teresa, suo padre, Odoardo, la piccola Isabellina ed io siamo
+                        andati a visitare la casa del Petrarca in Arqu&#xE0;. Arqu&#xE0; &#xE8;
+                        discosto, come tu sai, quattro miglia dalla mia casa; <app>
+                            <lem wit="#L #Z">ma per pi&#xF9;
+                                accorciare</lem>
+                            <rdg wit="#Gt">
+                                e per noi accorciare
+                            </rdg>
+                        </app>
+                        il cammino prendemmo la via dell'erta. S'apriva appena il pi&#xF9; bel
+                        giorno d'autunno. Parea che la Notte segu&#xEC;ta dalle tenebre e dalle
+                        stelle fuggisse dal Sole, che uscia nel suo immenso splendore dalle nubi
+                        d'oriente, quasi dominatore dell'universo; e l'universo sorridea. Le nuvole
+                        dorate e dipinte a mille colori salivano su la volta del cielo che tutto
+                        sereno mostrava quasi di schiudersi per diffondere <app>
+                            <lem wit="#L #Z">sovra</lem>
+                            <rdg wit="#Gt">
+                                su
+                            </rdg>
+                        </app>
+                        i mortali le cure della <app>
+                            <lem wit="#L">Divinit&#xE0;</lem>
+                            <rdg wit="#Gt #Z">
+                                divinit&#xE0;
+                            </rdg>
+                        </app>.
+                        Io salutava a ogni passo la famiglia de' fiori e dell'erbe che a poco a poco
+                        alzavano il capo chinato dalla brina. Gli alberi susurrando soavemente,
+                        faceano tremolare contro la luce le gocce trasparenti della rugiada; mentre
+                        i venti dell'aurora rasciugavano il soverchio umore alle piante. Avresti
+                        udito una solenne armonia spandersi confusamente fra le selve, gli augelli,
+                        gli armenti, i fiumi, e le fatiche degli uomini: e intanto spirava l'aria
+                        profumata <app>
+                            <lem wit="#L #Z">delle</lem>
+                            <rdg wit="#Gt">
+                                dalle
+                            </rdg>
+                        </app>
+                        esalazioni che la terra esultante di piacere mandava dalle valli e da' monti
+                        al Sole, ministro maggiore della Natura. &#x2014; Io compiango lo sciagurato
+                        che pu&#xF2; destarsi muto, freddo e guardare tanti beneficj senza <app>
+                            <lem wit="#L #Z">sentirsi gli occhi bagnati dalle lagrime</lem>
+                            <rdg wit="#Gt">
+                                aver gli occhi molli dalle care lagrime
+                            </rdg>
+                        </app>
+                        della riconoscenza. Allora <app>
+                            <lem wit="#L #Z">ho veduto</lem>
+                            <rdg wit="#Gt">
+                                io ho veduta
+                            </rdg>
+                        </app>
+                        Teresa nel pi&#xF9; bell'apparato delle sue grazie. Il suo aspetto per lo
+                        pi&#xF9; sparso di una dolce malinconia, si andava animando di una gioja
+                        schietta, viva, che le usciva dal cuore; la sua voce era soffocata; i suoi
+                        grandi occhi neri aperti prima nell'estasi, si inumidivano poscia a poco a
+                        poco: tutte le sue potenze parevano invase dalla sacra belt&#xE0; della
+                        campagna. In tanta piena di <app>
+                            <lem wit="#L #Z">affetti</lem>
+                            <rdg wit="#Gt">
+                                sensazioni
+                            </rdg>
+                        </app>
+                        le anime si schiudono per <app>
+                            <lem wit="#L #Z">versarli</lem>
+                            <rdg wit="#Gt">
+                                versarle
+                            </rdg>
+                        </app>
+                        nell'altrui petto: ed ella si volgeva a Odoardo. Eterno Iddio! parea ch'egli
+                        andasse tentone <app>
+                            <lem wit="#L #Z">fra le</lem>
+                            <rdg wit="#Gt">
+                                nelle
+                            </rdg>
+                        </app>
+                        tenebre della notte, o ne' deserti abbandonati <app>
+                            <lem wit="#L #Z">dalla benedizione</lem>
+                            <rdg wit="#Gt">
+                                dal sorriso
+                            </rdg>
+                        </app>
+                        della Natura. Lo lasci&#xF2; tutto a un tratto, e s'appoggi&#xF2; al mio <app>
+                            <lem wit="#L">braccio, dicendomi &#x2014;</lem>
+                            <rdg wit="#Z">
+                                braccio dicendomi &#x2014;
+                            </rdg>
+                            <rdg wit="#Gt">
+                                braccio, dicendomi...
+                            </rdg>
+                        </app>
+                        ma, Lorenzo! per quanto <app>
+                            <lem wit="#L #Z">mi studi</lem>
+                            <rdg wit="#Gt">
+                                io tenti
+                            </rdg>
+                        </app>
+                        di continuare, conviene pur ch'io mi taccia. Se potessi dipingerti la sua
+                        pronunzia, i suoi <app>
+                            <lem wit="#L #Z">gesti</lem>
+                            <rdg wit="#Gt">
+                                modi
+                            </rdg>
+                        </app>,
+                        la melodia della sua voce, la sua celeste fisonomia, o <app>
+                            <lem wit="#L #Z">ricopiar non foss'altro</lem>
+                            <rdg wit="#Gt">
+                                trascrivere almeno tutte
+                            </rdg>
+                        </app>
+                        le sue parole senza cangiarne o traslocarne sillaba, certo che tu mi
+                        sapresti grado; diversamente, rincresco persino a me stesso. Che giova
                         copiare imperfettamente un inimitabile quadro, la cui fama soltanto lascia
                         pi&#xF9; senso che la sua misera copia? E non ti pare ch'io somigli i poeti
                         traduttori d'Omero? Giacch&#xE8; tu vedi ch'io non mi affatico, che per
