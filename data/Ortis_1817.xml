@@ -181,7 +181,7 @@
                     </idno>
                 </msDesc>
             </witness> <!--
-            Edizione Londinese-->
+            Edizione Londinese. Testo base-->
             <witness xml:id="L">
                 <date>1817</date>
                 <msDesc type="print">
@@ -197,40 +197,78 @@
             <div1 type="dedica">
                 <head>AL LETTORE</head>
                 <p>Pubblicando queste lettere, io tento di erigere un monumento alla virt&#xF9;
-                    sconosciuta; e di consecrare alla memoria del solo amico mio quelle lagrime, che
-                    ora mi si vieta di spargere su la sua sepoltura. E tu, o Lettore, se uno non sei
-                    di coloro che esigono dagli altri quell'eroismo di cui non sono eglino stessi
-                    capaci, darai, spero, la tua compassione al giovine infelice dal quale potrai
-                    forse trarre esempio e conforto.</p>
+                    sconosciuta; e di <app>
+                        <lem wit="#L">consecrare alla memoria del solo amico mio quelle lagrime</lem>
+                        <rdg wit="#Gt">consecrare su le memorie del mio solo amico quel pianto</rdg>
+                    </app>,
+                    che ora mi si vieta di spargere su la sua sepoltura. E tu, o Lettore, se uno non
+                    sei di coloro che esigono dagli altri quell'eroismo di cui non sono eglino
+                    stessi capaci, darai, spero, la tua compassione al giovine infelice dal quale
+                    potrai forse trarre esempio e conforto.</p>
                 <closer>
                     <signed>
-                        <hi rend="sc">LORENZO ALDERANI</hi>
+                        <app>
+                            <lem wit="#L">LORENZO ALDERANI</lem>
+                            <rdg wit="#Gt">LORENZO A***</rdg>
+                        </app>
                     </signed>
                 </closer>
             </div1>
+            <!-- NB: In L a questa dedica segue la NOTIZIA. In Z, prima di questa dedica, si legge
+            l'AVVISO
+            DELLO STAMPATORE.-->
             <div1 type="part">
-                <head>PARTE I</head>
+                <head>PARTE PRIMA</head>
                 <div2 type="epistola">
-                    <head>1</head>
+                    <app>
+                        <lem wit="#L"></lem>  <!-- omessa in L -->
+                        <rdg wit="#Z">Libertà va cercando; ch'è sì cara <lb />Come sa chi per lei
+                            vita rifiuta. <lb /> DANTE</rdg>  <!-- presente in Z -->
+                    </app>
                     <opener>
-                        <dateline>Da' colli Euganei, 11 ottobre 1797.</dateline>
+                        <dateline>Da' colli Euganei, 11 <app>
+                                <lem wit="#L">Ottobre</lem>
+                                <rdg wit="#Gt #Z">ottobre</rdg> # in Gt e
+                            Z i mesi sono sempre minuscoli </app> 1797.</dateline>
                     </opener>
-                    <p>Il sacrificio della patria nostra &#xE8; consumato: tutto &#xE8; perduto; e
-                        la vita, seppure ne verr&#xE0; concessa, non ci rester&#xE0; che per
-                        piangere le nostre sciagure, e la nostra infamia. Il mio nome &#xE8; nella
-                        lista di proscrizione, lo so: ma vuoi tu ch'io per salvarmi da chi m'opprime
-                        mi commetta a chi mi ha tradito? consola mia madre: vinto dalle sue lagrime
-                        le ho ubbidito, e ho lasciato Venezia per evitare le prime persecuzioni, e
-                        le pi&#xF9; feroci. Or dovr&#xF2; io abbandonare anche questa mia solitudine
-                        antica, dove, senza perdere dagli occhi il mio sciagurato paese, posso
-                        ancora sperare qualche giorno di pace? Tu mi fai raccapricciare, Lorenzo;
-                        quanti sono dunque gli sventurati? E noi, pur troppo, noi stessi italiani ci
-                        laviamo le mani nel sangue degl'italiani. Per me segua che pu&#xF2;.
-                        Poich&#xE8; ho disperato e della mia patria e di me, aspetto tranquillamente
-                        la prigione e la morte. Il mio cadavere almeno non cadr&#xE0; fra le braccia
-                        straniere; il mio nome sar&#xE0; sommessamente compianto da' pochi uomini
-                        buoni, compagni delle nostre miserie; e le mie ossa poseranno su la terra
-                        de' miei padri.</p>
+                    <p>Il sacrificio della <app>
+                            <lem wit="#L">patria nostra</lem>
+                            <rdg wit="#Gt">nostra patria</rdg>
+                        </app> &#xE8;
+                        consumato: tutto &#xE8; perduto; e la vita, seppure ne verr&#xE0; concessa,
+                        non ci rester&#xE0; che per piangere le nostre sciagure, <app>
+                            <lem wit="#L">e la nostra infamia</lem>
+                            <rdg wit="#Gt">le nostre infamie</rdg>
+                        </app>. Il
+                        mio nome &#xE8; nella lista di proscrizione, lo so: ma vuoi tu ch'io per
+                        salvarmi da chi m'opprime mi commetta a chi mi ha tradito? consola mia
+                        madre: vinto dalle sue lagrime <app>
+                            <lem wit="#L">le ho ubbidito</lem>
+                            <rdg wit="#Gt">l'ho ubbidita</rdg>
+                        </app>, e ho
+                        lasciato Venezia per evitare le prime persecuzioni, e le pi&#xF9; feroci. <app>
+                            <lem wit="#L">Or</lem>
+                            <rdg wit="#Gt">Ma</rdg>
+                        </app> dovr&#xF2; io
+                        abbandonare anche questa mia solitudine antica, dove, senza <app>
+                            <lem wit="#L">perdere dagli occhi</lem>
+                            <rdg wit="#Gt">perdere per sempre</rdg>
+                        </app> il
+                        mio sciagurato paese, posso ancora sperare qualche giorno di pace? Tu mi fai
+                        raccapricciare, <app>
+                            <lem wit="#L">Lorenzo; quanti sono dunque gli sventurati?</lem>
+                            <rdg wit="#Gt">Lorenzo...quanti infelici!</rdg>
+                        </app>
+                        E noi, pur troppo, noi stessi italiani ci laviamo le mani nel sangue
+                        degl'italiani. Per me segua che pu&#xF2;. Poich&#xE8; ho disperato e della
+                        mia patria e <app>
+                            <lem wit="#L">di me,</lem>
+                            <rdg wit="#Gt">di me stesso,</rdg>
+                        </app> aspetto
+                        tranquillamente la prigione e la morte. Il mio cadavere almeno non
+                        cadr&#xE0; fra le braccia straniere; il mio nome sar&#xE0; sommessamente
+                        compianto da' pochi uomini buoni, compagni delle nostre miserie; e le mie
+                        ossa poseranno su la terra de' miei padri.</p>
                 </div2>
                 <div2 type="epistola">
                     <head>2</head>
