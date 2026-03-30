@@ -1017,30 +1017,104 @@
                             </rdg>
                         </app>
                         le sue parole senza cangiarne o traslocarne sillaba, certo che tu mi
-                        sapresti grado; diversamente, rincresco persino a me stesso. Che giova
-                        copiare imperfettamente un inimitabile quadro, la cui fama soltanto lascia
-                        pi&#xF9; senso che la sua misera copia? E non ti pare ch'io somigli i poeti
-                        traduttori d'Omero? Giacch&#xE8; tu vedi ch'io non mi affatico, che per
-                        annacquare il sentimento che m'infiamma e stemprarlo in un languido
-                        fraseggiamento.</p>
+                        sapresti grado; diversamente, <app>
+                            <lem wit="#L #Z">rincresco</lem>
+                            <rdg wit="#Gt">
+                                incresco
+                            </rdg>
+                        </app>
+                        persino a me stesso. Che giova copiare imperfettamente un inimitabile
+                        quadro, la cui fama soltanto <app>
+                            <lem wit="#L #Z">lascia pi&#xF9; senso</lem>
+                            <rdg wit="#Gt">
+                                fa pi&#xF9; impressione
+                            </rdg>
+                        </app>
+                        che la sua misera copia? E non ti pare ch'io somigli <app>
+                            <lem wit="#L #Z">i poeti traduttori d'Omero?</lem>
+                            <rdg wit="#Gt">
+                                i traduttori del divo Omero?
+                            </rdg>
+                        </app>
+                        Giacch&#xE8; tu vedi ch'io non mi affatico, che per <app>
+                            <lem wit="#L #Z">annacquare</lem>
+                            <rdg wit="#Gt">
+                                inacquare
+                            </rdg>
+                        </app>
+                        il sentimento che m'infiamma e stemprarlo in un languido fraseggiamento.</p>
                     <p>Lorenzo, ne sono stanco; il rimanente del mio racconto, domani: il vento
                         imperversa; tuttavolta vo' tentare il cammino; saluter&#xF2; Teresa in tuo
                         nome.</p>
                     <p>Per dio! e' m'&#xE8; forza di proseguire la lettera: su l'uscio della casa ci
-                        &#xE8; un pantano d'acqua che mi contrasta il passo: potrei varcarlo d'un
-                        salto; e poi? la pioggia non cessa: mezzogiorno &#xE8; passato, e mancano
-                        poche ore alla notte che minaccia la fine del mondo. Per oggi, giorno
-                        perduto, o Teresa. &#x2014;</p>
-                    <p> Non sono felice! mi disse Teresa; e con questa parola mi strapp&#xF2; il
-                        cuore. Io camminava al suo fianco in un profondo silenzio. Odoardo raggiunse
-                        il padre di Teresa; e ci precedevano chiacchierando. La Isabellina ci tenea
-                        dietro in braccio all'ortolano. <hi rend="italic">Non sono felice!</hi>
-                        &#x2014; io aveva concepito tutto il terribile significato di queste parole,
-                        e gemeva dentro l'anima, veggendomi innanzi la vittima che doveva
-                        sacrificarsi a' pregiudizi ed all'interesse. Teresa, avvedutasi della mia
-                        taciturnit&#xE0;, cambi&#xF2; voce, e tent&#xF2; di sorridere: Qualche cara
-                        memoria, mi diss'ella &#x2014; ma chin&#xF2; subito gli occhi &#x2014; Io
-                        non m'attentai di rispondere. </p>
+                        &#xE8; un <app>
+                            <lem wit="#L #Z">pantano</lem>
+                            <rdg wit="#Gt">
+                                lago
+                            </rdg>
+                        </app>
+                        d'acqua che mi contrasta il passo: <app>
+                            <lem wit="#L #Z">potrei</lem>
+                            <rdg wit="#Gt">
+                                potea
+                            </rdg>
+                        </app>
+                        varcarlo d'un salto; e poi? la pioggia non cessa: mezzogiorno &#xE8;
+                        passato, e mancano poche ore alla notte che minaccia la fine del mondo. Per
+                        oggi, giorno perduto, o Teresa. &#x2014;</p>
+                    <p>
+                        <app>
+                            <lem wit="#L #Z">Non sono felice!</lem>
+                            <rdg wit="#Gt">
+                                Sono infelice!
+                            </rdg>
+                        </app>
+                        mi disse Teresa; e con questa parola mi strapp&#xF2; il cuore. Io camminava
+                        al suo fianco in un profondo silenzio. Odoardo raggiunse il padre di Teresa;
+                        e ci <app>
+                            <lem wit="#L #Z">precedevano</lem>
+                            <rdg wit="#Gt">
+                                precedeano
+                            </rdg>
+                        </app>
+                        chiacchierando. La Isabellina ci tenea dietro in braccio all'ortolano. <app>
+                            <lem wit="#L #Z">
+                                <hi
+                                    rend="italic">Non sono felice!</hi>
+                            </lem>
+                            <rdg wit="#Gt">
+                                <hi
+                                    rend="italic">Sono infelice!</hi>
+                            </rdg>
+                        </app>
+                        &#x2014; io <app>
+                            <lem wit="#L #Z">aveva</lem>
+                            <rdg wit="#Gt">
+                                avea
+                            </rdg>
+                        </app>
+                        concepito tutto il terribile significato di queste parole, e gemeva dentro
+                        l'anima, <app>
+                            <lem wit="#L #Z">veggendomi</lem>
+                            <rdg wit="#Gt">
+                                veggendo
+                            </rdg>
+                        </app>
+                        innanzi la vittima che <app>
+                            <lem wit="#L #Z">doveva</lem>
+                            <rdg wit="#Gt">
+                                dovea
+                            </rdg>
+                        </app>
+                        sacrificarsi <app>
+                            <lem wit="#L #Z">a' pregiudizi</lem>
+                            <rdg wit="#Gt">
+                                al pregiudizio
+                            </rdg>
+                        </app>
+                        ed all'interesse. Teresa, avvedutasi della mia taciturnit&#xE0;, cambi&#xF2;
+                        voce, e tent&#xF2; di sorridere: Qualche cara memoria, mi diss'ella &#x2014;
+                        ma chin&#xF2; subito gli occhi &#x2014; Io non m'attentai di rispondere. </p>
                     <p> Eravamo gi&#xE0; presso ad Arqu&#xE0;, e scendendo per l'erboso pendio,
                         andavano sfumando e perdendosi all'occhio i paeselli che dianzi si vedeano
                         dispersi per le valli soggette. Ci siamo finalmente trovati a un viale cinto
