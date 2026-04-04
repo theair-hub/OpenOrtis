@@ -262,7 +262,36 @@
     </teiHeader>
     <text>
         <body>
+            <div1 type="frontespizio">
+                <p>ULTIME LETTERE</p>
+                <p>DI</p>
+                <p>JACOPO ORTIS</p>
+                <app>
+                    <lem wit="#L #Gt">
+                        <p>
+                            <hi
+                                rend="italic">Tratte dagli autografi</hi>
+                        </p>
+                        <p>[1817]</p>
+                    </lem>
+                    <rdg wit="#Z">
+                        <p>
+                            <hi
+                                rend="italic">Tratte dagli autografi</hi>
+                        </p>
+                        <p>
+                            <hi
+                                rend="italic">ristampate ora sovra il testo</hi>
+                        </p>
+                        <p>
+                            <hi
+                                rend="italic">della prima edizione</hi>
+                        </p>
+                    </rdg>
+                </app>
+            </div1>
             <div1 type="dedica">
+                <pb n="293" />
                 <head>AL LETTORE</head>
                 <p>PUBBLICANDO queste lettere, io tento di erigere un monumento alla virt&#xF9;
                     sconosciuta; e di <app>
@@ -295,6 +324,7 @@
             l'AVVISO
             DELLO STAMPATORE.-->
             <div1 type="part">
+                <pb n="295" />
                 <head>
                     <hi rend="italic">PARTE PRIMA</hi>
                 </head>
@@ -354,6 +384,7 @@
                         ossa poseranno su la terra de' miei padri.</p>
                 </div2>
                 <div2 type="epistola" n="2">
+                    <pb n="296" />
                     <opener>
                         <dateline>13 <app>
                                 <lem wit="#L">Ottobre</lem>
@@ -423,10 +454,10 @@
                             <lem wit="#L #Z">abbonacciata</lem>
                             <rdg wit="#Gt">acquetata</rdg>
                         </app>; se
-                        torner&#xE0; il pericolo, rassicurati, tenter&#xF2; ogni via di scamparne.
-                        Del resto io vivo tranquillo; per quanto si pu&#xF2; tranquillo. Non vedo
-                        persona del mondo: vo sempre vagando per la campagna; ma a dirti il vero
-                        penso, e mi rodo. Mandami qualche libro.</p>
+                        torner&#xE0; il pericolo, rassicurati, tenter&#xF2; ogni via di scamparne.<pb
+                            n="297" /> Del resto io vivo tranquillo; per quanto si pu&#xF2;
+                        tranquillo. Non vedo persona del mondo: vo sempre vagando per la campagna;
+                        ma a dirti il vero penso, e mi rodo. Mandami qualche libro.</p>
                     <p>Che fa <persName ref="#LR">Lauretta</persName>? <app>
                             <lem wit="#L #Z">povera</lem>
                             <rdg wit="#Gt">la povera</rdg>
@@ -489,10 +520,11 @@
                     </opener>
                     <p>SE m'&#xE8; dato lo sperare mai pace, l'ho trovata, o <persName ref="#LA">
                         Lorenzo</persName>. Il parroco, il medico, e tutti gli oscuri mortali di
-                        questo cantuccio della terra mi conoscono sin da fanciullo e mi amano.
-                        Quantunque io viva fuggiasco, mi vengono tutti d'intorno quasi volessero
-                        mansuefare una fiera generosa e selvatica. Per ora io lascio correre.
-                        Veramente non ho avuto tanto bene dagli uomini da fidarmene cos&#xEC; <app>
+                        questo cantuccio <pb n="298" />della terra mi conoscono sin da fanciullo e
+                        mi amano. Quantunque io viva fuggiasco, mi vengono tutti d'intorno quasi
+                        volessero mansuefare una fiera generosa e selvatica. Per ora io lascio
+                        correre. Veramente non ho avuto tanto bene dagli uomini da fidarmene
+                        cos&#xEC; <app>
                             <lem wit="#L #Z">alle prime:</lem>
                             <rdg wit="#Gt">a un tratto</rdg>
                         </app> ma quel
@@ -551,11 +583,11 @@
                             <lem wit="#L #Z">inteso</lem>
                             <rdg wit="#Gt">sentito</rdg>
                         </app> parlare come
-                        d'uomo di colto ingegno e di somma onest&#xE0;: doti temute in passato, ma
-                        adesso non possedute impunemente. Ha tratto cortese, fisonomia liberale, e
-                        parla col cuore. V'era con lui un tale; credo, lo sposo promesso di sua
-                        figlia. Sar&#xE0; forse un bravo e buono giovine; ma la sua faccia non dice
-                        nulla. Buona notte.</p>
+                        d'uomo di colto ingegno e di somma onest&#xE0;: doti<pb n="299" /> temute in
+                        passato, ma adesso non possedute impunemente. Ha tratto cortese, fisonomia
+                        liberale, e parla col cuore. V'era con lui un tale; credo, lo sposo promesso
+                        di sua figlia. Sar&#xE0; forse un bravo e buono giovine; ma la sua faccia
+                        non dice nulla. Buona notte.</p>
                 </div2>
                 <div2 type="epistola" n="6">
                     <opener>
@@ -637,7 +669,7 @@
                         di <persName ref="#LA">Lorenzo</persName>, le rispose <persName ref="#TE">
                         Teresa</persName>, &#xE8; quello che il babbo and&#xF2; a trovare
                         l'altr'jeri. Torn&#xF2; frattanto il <persName ref="#ST">signore T.</persName>:
-                        m'accoglieva famigliarmente, ringraziandomi <app>
+                        m'accoglieva famigliarmente,<pb n="299" /> ringraziandomi <app>
                             <lem wit="#L #Z">che io mi fossi sovvenuto</lem>
                             <rdg wit="#Gt">
                                 perch'io m'era sovvenuto
@@ -717,7 +749,7 @@
                         </app>
                         stesso compiangerebbe in me, anzich&#xE8; il consiglio del forte, il furore
                         del forsennato. Che vuoi tu imprendere fra due potenti nazioni che nemiche
-                        giurate, feroci, eterne, si collegano soltanto per <app>
+                        giurate,<pb n="301" /> feroci, eterne, si collegano soltanto per <app>
                             <lem wit="#L #Gt">incepparci? e dove</lem>
                             <rdg wit="#Z">
                                 incepparci; e dove
@@ -796,7 +828,8 @@
                         alla sola ragione fredda, calcolatrice? scellerato, e scellerato bassamente.
                         &#x2014; Del resto, <persName ref="#OD">Odoardo</persName> sa di musica;
                         giuoca bene a scacchi; mangia, legge, dorme, passeggia, e tutto con
-                        l'oriuolo alla mano; e non parla con enfasi se non per magnificare <app>
+                        l'oriuolo <pb n="302" />alla mano; e non parla con enfasi se non per
+                        magnificare <app>
                             <lem wit="#L #Z">tuttavia</lem>
                             <rdg wit="#Gt">
                                 sempre
@@ -890,10 +923,10 @@
                             <rdg wit="#Gt">
                                 ch'egli
                             </rdg>
-                        </app>
-                        vi pose non hanno mai potuto allignare, e i pini sono ancor giovinetti.
-                        Assistito io da parecchi lavoratori ho coronato la vetta, onde casca
-                        l'acqua, di cinque pioppi, ombreggiando la costa orientale di un folto
+                        </app><pb
+                            n="303" /> vi pose non hanno mai potuto allignare, e i pini sono ancor
+                        giovinetti. Assistito io da parecchi lavoratori ho coronato la vetta, onde
+                        casca l'acqua, di cinque pioppi, ombreggiando la costa orientale di un folto
                         boschetto che sar&#xE0; il primo salutato dal Sole quando splendidamente
                         comparir&#xE0; dalle cime de' monti. E jeri appunto il Sole pi&#xF9; sereno
                         del solito riscaldava l'aria irrigidita dalla nebbia del morente autunno. Le
@@ -948,8 +981,8 @@
                         ricco ed ombroso, forse nelle sere d'estate al patetico susurrar delle
                         fronde si uniranno i sospiri degli antichi padri della villa, i quali al
                         suono della campana de' morti pregheranno pace allo spirito dell'uomo
-                        dabbene e raccomanderanno la sua memoria ai lor figli. E se talvolta lo
-                        stanco mietitore verr&#xE0; a ristorarsi dall'arsura di giugno,
+                        dabbene e raccomanderanno la sua memoria ai lor<pb n="304" /> figli. E se
+                        talvolta lo stanco mietitore verr&#xE0; a ristorarsi dall'arsura di giugno,
                         esclamer&#xE0; guardando la mia fossa: <hi
                             rend="italic">Egli egli
                             innalz&#xF2; queste fresche ombre ospitali!</hi> <app>
@@ -1042,14 +1075,14 @@
                             <rdg wit="#Gt #Z">
                                 divinit&#xE0;
                             </rdg>
-                        </app>.
-                        Io salutava a ogni passo la famiglia de' fiori e dell'erbe che a poco a poco
-                        alzavano il capo chinato dalla brina. Gli alberi susurrando soavemente,
-                        faceano tremolare contro la luce le gocce trasparenti della rugiada; mentre
-                        i venti dell'aurora rasciugavano il soverchio umore alle piante. Avresti
-                        udito una solenne armonia spandersi confusamente fra le selve, gli augelli,
-                        gli armenti, i fiumi, e le fatiche degli uomini: e intanto spirava l'aria
-                        profumata <app>
+                        </app>
+                        .<pb n="305" /> Io salutava a ogni passo la famiglia de' fiori e dell'erbe
+                        che a poco a poco alzavano il capo chinato dalla brina. Gli alberi
+                        susurrando soavemente, faceano tremolare contro la luce le gocce trasparenti
+                        della rugiada; mentre i venti dell'aurora rasciugavano il soverchio umore
+                        alle piante. Avresti udito una solenne armonia spandersi confusamente fra le
+                        selve, gli augelli, gli armenti, i fiumi, e le fatiche degli uomini: e
+                        intanto spirava l'aria profumata <app>
                             <lem wit="#L #Z">delle</lem>
                             <rdg wit="#Gt">
                                 dalle
@@ -1237,7 +1270,8 @@
                         fisionomia. Qualche cara memoria, mi diss'ella sorridendo. Io non osai
                         risponderle.
                             </rdg>
-                        </app>
+                        </app><pb
+                            n="307" />
                     </p>
                     <p> Eravamo gi&#xE0; presso ad <placeName ref="#AR">Arqu&#xE0;</placeName>, e
                         scendendo per l'erboso pendio, <app>
@@ -1335,10 +1369,10 @@
                                 eterna
                             </rdg>
                         </app>
-                        infelicit&#xE0;. Io intanto sono abbandonata da tutti! ho promesso a mio
-                        padre, e non voglio disubbidirlo &#x2014; ma e mi duole ancor pi&#xF9;, che
-                        per mia cagione la nostra famiglia sia cos&#xEC; disunita &#x2014; per me,
-                        pazienza! &#x2014; <app>
+                        infelicit&#xE0;. Io intanto sono abbandonata da tutti! ho promesso a<pb
+                            n="308" /> mio padre, e non voglio disubbidirlo &#x2014; ma e mi duole
+                        ancor pi&#xF9;, che per mia cagione la nostra famiglia sia cos&#xEC;
+                        disunita &#x2014; per me, pazienza! &#x2014; <app>
                             <lem wit="#L #Z">E a questa parola, le lagrime</lem>
                             <rdg wit="#Gt">
                                 le lagrime
@@ -1458,8 +1492,8 @@
                             <rdg wit="#Gt">
                                 assicurare la felicità della sua famiglia
                             </rdg>
-                        </app>
-                        imparentandosi a un <hi
+                        </app><pb
+                            n="309" /> imparentandosi a un <hi
                             rend="italic">uomo
                             di senno</hi> , ricco, e in aspettativa di una eredit&#xE0;
                         ragguardevole &#x2014; forse, o <persName ref="#LA">Lorenzo</persName>, <app>
@@ -1544,7 +1578,7 @@
                                 alberi sfrondati
                             </rdg>
                         </app>
-                        e cospersa di piante <app>
+                        e cospersa<pb n="310" /> di piante <app>
                             <lem wit="#L #Z">atterrate</lem>
                             <rdg wit="#Gt">
                                 appassite
@@ -1649,8 +1683,8 @@
                                 fra i sarcasmi
                             </rdg>
                         </app>
-                        de' cortigiani, le noje de' saccenti, e l'orgoglio de' principi, or
-                        carcerato ed or vagabondo,<app>
+                        de' cortigiani, le noje de' saccenti, e l'orgoglio<pb n="311" /> de'
+                        principi, or carcerato ed or vagabondo,<app>
                             <lem wit="#L #Z">e tuttavia</lem>
                             <rdg wit="#Gt">
                                 sempre
@@ -1741,8 +1775,8 @@
                                 tormentasse
                             </rdg>
                         </app>
-                        per sapere a ogni patto di che abbiamo parlato. Onde tu vedi ch'io devo
-                        diradar le mie visite &#x2014; <app>
+                        per sapere<pb n="312" /> a ogni patto di che abbiamo parlato. Onde tu vedi
+                        ch'io devo diradar le mie visite &#x2014; <app>
                             <lem wit="#L #Z">almeno</lem>
                             <rdg wit="#Gt">
                                 almeno almeno
@@ -1815,9 +1849,9 @@
                                 quell'istante m'immergo
                             </rdg>
                         </app>
-                        in certe meditazioni, e bestemmierei il cielo veggendo in quest'uomo tante
-                        doti eccellenti, guaste tutte da' suoi pregiudizi e da una cieca
-                        predestinazione che lo faranno piangere amaramente. &#x2014; Cos&#xEC;
+                        in certe meditazioni, e bestemmierei il cielo veggendo in quest'uomo tante<pb
+                            n="313" /> doti eccellenti, guaste tutte da' suoi pregiudizi e da una
+                        cieca predestinazione che lo faranno piangere amaramente. &#x2014; Cos&#xEC;
                         intanto io divoro i miei giorni, querelandomi e de' miei propri mali e degli
                         altrui.</p>
                     <p>Eppure me ne dispiace: &#x2014; spesso rido di me, perch&#xE8; propriamente
@@ -1982,8 +2016,9 @@
                             </rdg>
                         </app>
                         senza batter palpebra, con gli occhi, le orecchie, e i sensi tutti intenti
-                        per divinizzarmi in quel luogo dove l'altrui vista non mi avrebbe costretto
-                        ad arrossire de' miei rapimenti. Ora ponti nel mio cuore, quand'io udiva <app>
+                        per divinizzarmi in quel luogo <pb n="315" />dove l'altrui vista non mi
+                        avrebbe costretto ad arrossire de' miei rapimenti. Ora ponti nel mio cuore,
+                        quand'io udiva <app>
                             <lem wit="#L #Z">cantar</lem>
                             <rdg wit="#Gt">
                                 a cantar
@@ -2056,8 +2091,9 @@
                                 recare
                             </rdg>
                         </app>
-                        al riaprirsi della universit&#xE0;. Vero &#xE8; ch'io avea fatto sacramento
-                        di venirci; e te n'ho scritto; ma aspettava il <persName ref="#ST">signore
+                        al riaprirsi della universit&#xE0;.<pb n="316" /> Vero &#xE8; ch'io avea
+                        fatto sacramento di venirci; e te n'ho scritto; ma aspettava il <persName
+                            ref="#ST">signore
                             T.</persName> &#x2014; non per <app>
                             <lem wit="#L #Z">anche</lem>
                             <rdg wit="#Gt">
