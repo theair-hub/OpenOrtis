@@ -2,9 +2,9 @@
     --text: #10131a;
     --blackbg: #0a0a0f;
     --nav: #161c2a;
-    --bg: #f5f0e8;
+    --bg: #fdfbf6;
     --title: #e8e0d0;
-    --accent: #5299b0;
+    --accent: #697d8c;
     --link: #2176a8;
     --border: 1px solid #cfc9c0;
 }
@@ -60,7 +60,7 @@ body {
 #navbar-example3 {
     position: sticky;
     top: 1.5rem;
-    background: #d1d4d4;
+    background: #f3ecdd;
     border: var(--border);
     border-radius: 10px;
     padding: 1rem;
@@ -121,7 +121,6 @@ body {
     margin-bottom: 0;
     color: var(--text);
     line-height: 1.6;
-    text-align: justify;
 }
 
 /* highlight scrollspy (Bootstrap active section) */
