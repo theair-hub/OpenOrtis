@@ -32,21 +32,114 @@ body {
     padding: 2vw;
 }
 
-h1 {
+.page-intro {
+    text-align: center;
+    padding: 2rem 1rem 1.5rem 1rem;
+}
+
+.page-intro h1 {
+    margin: 0;
+    font-size: 4.4rem;
+    letter-spacing: 0.03em;
     color: var(--accent);
     font-family: var(--h1_font);
+    text-align: center;
+}
+
+.subtitle {
+    margin-top: 0.5rem;
+    color: var(--muted);
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.4;
+    text-align: center;
+}
+
+#navbar-example3 {
+    position: sticky;
+    top: 1.5rem;
+    background: #d1d4d4;
+    border: var(--border);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+#navbar-example3 .nav-link {
+    color: var(--text);
+    border-radius: 6px;
+    padding: 0.4rem 0.6rem;
+}
+
+#navbar-example3 .nav-link:hover {
+    background: rgba(82, 153, 176, 0.12);
+    color: var(--accent);
+}
+
+#navbar-example3 .nav-link.active {
+    background: var(--accent);
+    color: #fff;
+}
+
+.scrollspy-example-2 {
+    padding: 1.5rem;
+    background: #fff;
+    border: var(--border);
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+}
+
+/* sezioni */
+.scrollspy-example-2>div {
+    padding: 1.2rem 0;
+    border-bottom: 1px solid rgba(207, 201, 192, 0.5);
+}
+
+.scrollspy-example-2>div:last-child {
+    border-bottom: none;
+}
+
+/* titoli */
+.scrollspy-example-2 h4 {
     text-align: left;
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+}
+
+.scrollspy-example-2 h5 {
+    text-align: left;
+    color: var(--accent);
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+    opacity: 0.9;
+}
+
+/* paragrafi */
+.scrollspy-example-2 p {
+    margin-bottom: 0;
+    color: var(--text);
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* highlight scrollspy (Bootstrap active section) */
+.scrollspy-example-2>div:target {
+    scroll-margin-top: 2rem;
+}
+
+/* effetto focus visivo quando nav cambia sezione */
+.scrollspy-example-2 .active-section {
+    background: rgba(82, 153, 176, 0.06);
+    border-left: 3px solid var(--accent);
+    padding-left: 1rem;
 }
 
 h4 {
     color: var(--accent);
     font-size: 1.2em;
     text-align: center;
-}
-
-p {
-    color: var(--text);
-    text-align: justify;
 }
 
 a:hover,

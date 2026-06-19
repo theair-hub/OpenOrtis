@@ -43,7 +43,7 @@
         <!-- ======= CONTROLS: choose which versions to show side by side ======= -->
         <section class="controls">
           <p class="controls-label">Compare the versions (select one or more: base text, Gt, Z, L):
-</p>
+          </p>
           <div class="controls-buttons">
             <label class="wit-toggle-label">
               <input type="checkbox" class="wit-toggle" value="base" checked="checked" />
@@ -106,11 +106,11 @@
         <section class="apparatus" id="apparatus">
           <div class="apparatus-header" id="apparatus-header" role="button" tabindex="0"
             aria-expanded="true">
-            <span>Apparato critico</span>
+            <span>Critical Apparatus</span>
             <span class="apparatus-toggle" aria-hidden="true">▾</span>
           </div>
           <div class="apparatus-body" id="apparatus-body">
-            <ol>
+            <ul style="list-style: none; margin: 0; padding: 0;">
               <xsl:for-each select="//tei:app[tei:rdg]">
                 <xsl:variable name="n"><xsl:number level="any" count="tei:app[tei:rdg]" /></xsl:variable>
               <li
@@ -156,7 +156,7 @@
                   </xsl:for-each>
                 </li>
               </xsl:for-each>
-            </ol>
+            </ul>
           </div>
         </section>
 
@@ -184,31 +184,17 @@
             </xsl:choose><xsl:text>", </xsl:text>
             <xsl:text>"occupation": "</xsl:text><xsl:value-of
               select="translate(normalize-space(tei:occupation), '&quot;', '')" /><xsl:text>", </xsl:text>
-
-  <xsl:text>"link": "</xsl:text>
-  <xsl:choose>
-              <xsl:when test="@sameAs">
-                <xsl:value-of select="@sameAs" />
-              </xsl:when>
-              <xsl:otherwise>
-                <xsl:value-of select="@source" />
-              </xsl:otherwise>
-            </xsl:choose>
-  <xsl:text>"</xsl:text>
-
-  <xsl:text>}</xsl:text>
-
-  <xsl:if
-              test="position() != last()">
-              <xsl:text>,</xsl:text>
-            </xsl:if>
-
+            <xsl:text>"note": "</xsl:text><xsl:value-of
+              select="translate(normalize-space(tei:note), '&quot;', '')" /><xsl:text>", </xsl:text>
+            <xsl:text>"link": "</xsl:text><xsl:value-of
+              select="@sameAs" /><xsl:text>"</xsl:text>
+          <xsl:text>}</xsl:text>
+          <xsl:if
+              test="not(position()=last())">,</xsl:if>
           </xsl:for-each>
-
-<xsl:text>};</xsl:text>
-
-<xsl:call-template name="js"/>
-</script>
+        <xsl:text>};</xsl:text>
+        <xsl:call-template name="js"/>
+      </script>
       </body>
     </html>
   </xsl:template>
@@ -357,7 +343,7 @@
           </xsl:choose>
         <sup
             class="app-ref">
-            <a href="#app-{$n}" title="Vedi apparato critico, nota {$n}">[<xsl:value-of select="$n" />
+            <a href="#app-{$n}" title="See Critical Apparatus, Note {$n}">[<xsl:value-of select="$n" />
     ]</a>
           </sup>
         </xsl:element>
@@ -409,7 +395,7 @@
   </xsl:template>
 
   <xsl:template match="tei:pb" name="render-pb">
-    <span class="pb" title="Inizio pagina {@n} dell'edizione di riferimento">
+    <span class="pb" title="Beginning of page {@n} of the reference edition">
       <xsl:text>[p. </xsl:text>
       <xsl:value-of select="@n" />
       <xsl:text>]</xsl:text>
@@ -599,7 +585,7 @@
     .entity-place:hover, .entity-place:focus { background: rgba(46,125,50,.12); outline: none; } /*
     ---- apparatus references in the running text ---- */ .app-locus { border-bottom: 1px dotted
     #c0392b; } .app-ref a { text-decoration: none; color: #c0392b; font-size: .75em; margin-left:
-    .05em; } .apparatus { position: fixed; left: 0; right: 0; bottom: 0; background: #fdfbf6;
+    .05em; } .apparatus { position: fixed; left: 0; right: 0; bottom: 0; background: #fdfbf6; 
     border-top: 2px solid #8a6d3b; box-shadow: 0 -4px 16px rgba(0,0,0,.12); z-index: 80; max-height:
     45vh; display: flex; flex-direction: column; } .apparatus-header { display: flex;
     justify-content: space-between; align-items: center; padding: .6em 1.5em; cursor: pointer;
@@ -626,11 +612,10 @@
   <!-- =========================================================
      JAVASCRIPT
      ========================================================= -->
-  <xsl:template name="js"> document.addEventListener('DOMContentLoaded', function () { /* ---- fixed
+  <xsl:template name="js"> document.addEventListener('DOMContentLoaded', function () { /* ----
     critical apparatus panel ---- */ var apparatus = document.getElementById('apparatus'); var
-    apparatusHeader = document.getElementById('apparatus-header'); var apparatusBody =
-    document.getElementById('apparatus-body'); function setApparatusCollapsed(collapsed) {
-    apparatus.classList.toggle('collapsed', collapsed);
+    apparatusHeader = document.getElementById('apparatus-header'); function
+    setApparatusCollapsed(collapsed) { apparatus.classList.toggle('collapsed', collapsed);
     apparatusHeader.setAttribute('aria-expanded', collapsed ? 'false' : 'true'); }
     apparatusHeader.addEventListener('click', function () {
     setApparatusCollapsed(!apparatus.classList.contains('collapsed')); });
@@ -642,17 +627,19 @@
     document.getElementById(id); if (!target) return; setApparatusCollapsed(false);
     target.scrollIntoView({ block: 'nearest' }); target.classList.add('highlight');
     setTimeout(function () { target.classList.remove('highlight'); }, 1500); }); }); /* ---- entity
-    info panel ---- */ var panel = document.getElementById('entity-panel'); var panelContent =
+    panel ---- */ var panel = document.getElementById('entity-panel'); var panelContent =
     document.getElementById('entity-panel-content'); var closeBtn =
     document.getElementById('entity-panel-close'); function showEntity(id) { var info =
-    ENTITIES[id]; if (!info) return; var html = '&lt;h4&gt;' + info.name + '&lt;/h4&gt;'; if
-    (info.type === 'persona') { html += '&lt;p class="entity-occupation"&gt;Personaggio&lt;/p&gt;';
-    } else { html += '&lt;p class="entity-occupation"&gt;Luogo&lt;/p&gt;'; } if (info.occupation)
-    html += '&lt;p&gt;' + info.occupation + '&lt;/p&gt;'; if (info.note) html += '&lt;p&gt;' +
-    info.note + '&lt;/p&gt;'; if (info.link) html += `<p>
-      <a href="${info.link}" target="_blank" rel="noopener">External Link ↗</a>
-    </p>`;
-    panelContent.innerHTML = html; panel.removeAttribute('hidden'); }
+    ENTITIES[id]; if (!info) return; panelContent.innerHTML = ''; var h4 =
+    document.createElement('h4'); h4.textContent = info.name; panelContent.appendChild(h4); var type
+    = document.createElement('p'); type.className = 'entity-occupation'; type.textContent =
+    (info.type === 'persona') ? 'Person' : 'Place'; panelContent.appendChild(type); if
+    (info.occupation) { var p1 = document.createElement('p'); p1.textContent = info.occupation;
+    panelContent.appendChild(p1); } if (info.note) { var p2 = document.createElement('p');
+    p2.textContent = info.note; panelContent.appendChild(p2); } if (info.link) { var p3 =
+    document.createElement('p'); var a = document.createElement('a'); a.href = info.link; a.target =
+    '_blank'; a.rel = 'noopener'; a.textContent = 'External Link ↗'; p3.appendChild(a);
+    panelContent.appendChild(p3); } panel.removeAttribute('hidden'); }
     document.querySelectorAll('.entity').forEach(function (el) { el.addEventListener('click',
     function (e) { e.stopPropagation(); showEntity(this.getAttribute('data-entity')); });
     el.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.code === 'Space') {
@@ -660,7 +647,7 @@
     closeBtn.addEventListener('click', function () { panel.setAttribute('hidden', 'hidden'); });
     document.addEventListener('click', function (e) { if (!panel.hasAttribute('hidden') &amp;&amp;
     !panel.contains(e.target)) { panel.setAttribute('hidden', 'hidden'); } }); /* ---- witness
-    column toggles ---- */ var checkboxes =
+    columns ---- */ var checkboxes =
     Array.prototype.slice.call(document.querySelectorAll('.wit-toggle')); var columnsEl =
     document.getElementById('columns'); function updateColumns() { var checked =
     checkboxes.filter(function (c) { return c.checked; }); if (checked.length === 0) {
@@ -669,13 +656,12 @@
     (visible.indexOf(col.getAttribute('data-witness')) !== -1) { col.classList.remove('hidden-col');
     } else { col.classList.add('hidden-col'); } }); columnsEl.classList.toggle('comparison-mode',
     visible.length > 1); } checkboxes.forEach(function (c) { c.addEventListener('change',
-    updateColumns); }); updateColumns(); /* ---- synchronized scrolling between columns (comparison
-    mode) ---- */ var syncing = false; document.querySelectorAll('.column-text').forEach(function
-    (col) { col.addEventListener('scroll', function () { if (syncing ||
+    updateColumns); }); updateColumns(); /* ---- synchronized scroll ---- */ var syncing = false;
+    document.querySelectorAll('.column-text').forEach(function (col) {
+    col.addEventListener('scroll', function () { if (syncing ||
     !columnsEl.classList.contains('comparison-mode')) return; syncing = true; var range =
-    col.scrollHeight - col.clientHeight; var ratio = range &gt; 0 ? col.scrollTop / range : 0;
+    col.scrollHeight - col.clientHeight; var ratio = range > 0 ? col.scrollTop / range : 0;
     document.querySelectorAll('.column-text').forEach(function (other) { if (other !== col) { var
     otherRange = other.scrollHeight - other.clientHeight; other.scrollTop = ratio * otherRange; }
     }); syncing = false; }); }); }); </xsl:template>
-
 </xsl:stylesheet>
